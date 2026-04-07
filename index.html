@@ -4,202 +4,347 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Teándrico</title>
-
 <style>
-:root {
-  --bg: #ffffff;
-  --surface: #ffffff;
-  --text: #1a1a1a;
-  --muted: #6b6b6b;
-  --accent: #1a1a1a;
-  --accent-light: #f5f5f5;
-  --border: #e5e5e0;
-  --gold: #f5c842;
-  --font-serif: 'Georgia', 'Times New Roman', serif;
-  --font-sans: 'Helvetica Neue', Arial, sans-serif;
-}
+  :root {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #1a1a1a;
+    --accent-light: #f5f5f5;
+    --border: #e5e5e0;
+    --gold: #f5c842;
+    --font-serif: 'Georgia', 'Times New Roman', serif;
+    --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-sans); line-height: 1.7; }
 
-* { margin:0; padding:0; box-sizing:border-box; }
+  /* NAV */
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+  .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 150px; }
+  .logo { font-family: var(--font-serif); font-size: 1.3rem; color: var(--accent); text-decoration: none; letter-spacing: 0.02em; }
+  .logo span { color: var(--gold); }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.9rem; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+  .hamburger span { width: 24px; height: 2px; background: var(--text); display: block; }
 
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: var(--font-sans);
-  line-height: 1.7;
-}
+  /* PAGES */
+  .page { display: none; }
+  .page.active { display: block; }
 
-/* NAV */
-nav { border-bottom:1px solid var(--border); position:sticky; top:0; background:#fff; z-index:100; }
-.nav-inner { max-width:1100px; margin:auto; padding:0 2rem; display:flex; justify-content:space-between; align-items:center; height:120px; }
+  /* HERO */
+  .hero { position: relative; background-image: url('imagenes/imagen-principal.jpg'); background-size: cover; background-position: center; padding: 7rem 2rem 5rem; }
+  .hero::before { content: ''; position: absolute; inset: 0; background: rgba(10, 20, 40, 0.65); }
+  .hero > * { position: relative; z-index: 1; }
+  .hero-label { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+  .hero h1 { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3.2rem); font-weight: normal; line-height: 1.25; color: #fff; max-width: 700px; margin-bottom: 1.5rem; }
+  .hero p { color: rgba(255,255,255,0.8); max-width: 580px; font-size: 1.05rem; margin-bottom: 2.5rem; }
+  .btn { display: inline-block; padding: 0.75rem 1.8rem; background: var(--accent); color: #fff; text-decoration: none; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; transition: background 0.2s; cursor: pointer; border: none; }
+  .btn:hover { background: #333333; }
+  .btn-ghost { background: transparent; border: 1px solid rgba(255,255,255,0.6); color: #fff; margin-left: 1rem; }
+  .btn-ghost:hover { background: rgba(255,255,255,0.1); }
 
-/* CARDS */
-.articles-grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
-  gap:2rem;
-  padding:2rem;
-  max-width:1100px;
-  margin:auto;
-}
+  /* DIVIDER */
+  .divider { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+  .divider hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
 
-.card {
-  border:1px solid var(--border);
-  cursor:pointer;
-  transition:.2s;
-  overflow:hidden;
-  background:#fff;
-}
+  /* SECTION LABEL */
+  .section-label { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; background: var(--gold); color: #1a1a1a; display: inline-block; padding: 0.2rem 0.6rem; margin-bottom: 1.5rem; }
 
-.card:hover {
-  transform:translateY(-4px);
-  box-shadow:0 8px 30px rgba(0,0,0,0.08);
-}
+  /* FEATURED */
+  .featured { max-width: 1100px; margin: 0 auto; padding: 1rem 2rem 4rem; }
+  .featured h2 { font-family: var(--font-serif); font-size: 1.4rem; font-weight: normal; margin-bottom: 2rem; color: var(--text); }
+  .articles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; }
+  .card { background: var(--surface); border: 1px solid var(--border); padding: 2rem; cursor: pointer; transition: box-shadow 0.2s, transform 0.2s; }
+  .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); transform: translateY(-2px); }
+  .card-cat { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; background: var(--gold); color: #1a1a1a; display: inline-block; padding: 0.15rem 0.5rem; margin-bottom: 0.8rem; }
+  .card h3 { font-family: var(--font-serif); font-size: 1.15rem; font-weight: normal; line-height: 1.4; margin-bottom: 0.8rem; color: var(--text); }
+  .card p { font-size: 0.9rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.2rem; }
+  .card-meta { font-size: 0.78rem; color: #aaa; }
 
-.card-image {
-  height:180px;
-  background-size:cover;
-  background-position:center;
-}
+  /* FILTER BAR */
+  .filter-bar { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+  .filter-bar span { font-size: 0.8rem; color: var(--muted); margin-right: 0.5rem; }
+  .tag { padding: 0.4rem 1rem; border: 1px solid var(--border); background: transparent; font-size: 0.78rem; cursor: pointer; color: var(--muted); transition: all 0.2s; letter-spacing: 0.04em; }
+  .tag:hover, .tag.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
-.card-content {
-  padding:1.5rem;
-}
+  /* ARTICLE VIEW */
+  .article-view { max-width: 720px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+  .back-btn { font-size: 0.82rem; color: var(--accent); cursor: pointer; margin-bottom: 2.5rem; display: inline-flex; align-items: center; gap: 0.4rem; text-decoration: none; background: none; border: none; letter-spacing: 0.04em; }
+  .back-btn:hover { text-decoration: underline; }
+  .article-cat { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; background: var(--gold); color: #1a1a1a; display: inline-block; padding: 0.2rem 0.6rem; margin-bottom: 1rem; }
+  .article-title { font-family: var(--font-serif); font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: normal; line-height: 1.3; margin-bottom: 1rem; }
+  .article-meta { font-size: 0.82rem; color: #aaa; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+  .article-body { font-family: var(--font-serif); font-size: 1.08rem; line-height: 1.85; color: #2a2a2a; }
+  .article-body p { margin-bottom: 1.5rem; }
+  .article-body h3 { font-size: 1.2rem; font-weight: normal; margin: 2.5rem 0 1rem; color: var(--accent); }
+  blockquote { border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 2rem 0; font-style: italic; color: var(--muted); background: var(--accent-light); }
 
-.card-cat {
-  font-size:.7rem;
-  background:var(--gold);
-  display:inline-block;
-  padding:.2rem .5rem;
-  margin-bottom:.6rem;
-}
+  /* ABOUT */
+  .about-page { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 5rem; }
+  .about-page h1 { font-family: var(--font-serif); font-size: 2rem; font-weight: normal; margin-bottom: 2rem; }
+  .about-page p { color: var(--muted); margin-bottom: 1.2rem; font-size: 1.02rem; }
+  .mission-box { background: var(--accent-light); border-left: 3px solid var(--accent); padding: 1.5rem 2rem; margin: 2.5rem 0; }
+  .mission-box p { color: var(--accent); font-family: var(--font-serif); font-size: 1.05rem; margin: 0; }
 
-.card h3 {
-  font-family:var(--font-serif);
-  font-weight:normal;
-  margin-bottom:.6rem;
-}
+  /* CONTACT */
+  .contact-page { max-width: 600px; margin: 0 auto; padding: 4rem 2rem 5rem; }
+  .contact-page h1 { font-family: var(--font-serif); font-size: 2rem; font-weight: normal; margin-bottom: 0.5rem; }
+  .contact-page > p { color: var(--muted); margin-bottom: 2.5rem; }
+  .form-group { margin-bottom: 1.5rem; }
+  .form-group label { display: block; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+  .form-group input, .form-group textarea { width: 100%; padding: 0.8rem 1rem; border: 1px solid var(--border); background: var(--surface); font-family: var(--font-sans); font-size: 0.95rem; color: var(--text); outline: none; transition: border-color 0.2s; }
+  .form-group input:focus, .form-group textarea:focus { border-color: var(--accent); }
+  .form-group textarea { height: 140px; resize: vertical; }
+  .success-msg { background: #e8f5e9; border: 1px solid #a5d6a7; padding: 1rem 1.5rem; color: #2e7d32; font-size: 0.9rem; margin-top: 1rem; display: none; }
 
-.card p {
-  font-size:.9rem;
-  color:var(--muted);
-}
+  /* CLUB DE LECTURA */
+  .club-section { background: var(--accent-light); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .club-inner { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; display: flex; gap: 3rem; align-items: center; }
+  .club-book { flex-shrink: 0; }
+  .club-book img { width: 130px; box-shadow: 0 8px 24px rgba(0,0,0,0.18); display: block; }
+  .club-info { flex: 1; }
+  .club-info .section-label { margin-bottom: 0.8rem; }
+  .club-info h2 { font-family: var(--font-serif); font-size: 1.5rem; font-weight: normal; margin-bottom: 0.4rem; color: var(--text); }
+  .club-info .club-author { font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem; }
+  .club-info p { font-size: 0.95rem; color: var(--muted); margin-bottom: 1.5rem; max-width: 520px; }
+  .btn-whatsapp { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.6rem; background: #25D366; color: #fff; text-decoration: none; font-size: 0.85rem; letter-spacing: 0.04em; transition: background 0.2s; }
+  .btn-whatsapp:hover { background: #1ebe5d; }
+  .btn-whatsapp svg { width: 18px; height: 18px; fill: #fff; }
+  @media (max-width: 640px) {
+    .club-inner { flex-direction: column; gap: 1.5rem; }
+    .club-book img { width: 100px; }
+  }
 
-/* ARTICLE */
-.article-view {
-  max-width:720px;
-  margin:auto;
-  padding:3rem 2rem;
-}
+  /* FOOTER */
+  footer { background: var(--text); color: #aaa; text-align: center; padding: 2.5rem; font-size: 0.82rem; letter-spacing: 0.04em; }
+  footer span { color: var(--gold); }
 
-.article-title {
-  font-family:var(--font-serif);
-  font-size:2rem;
-  margin-bottom:1rem;
-}
-
-.article-meta {
-  color:#aaa;
-  margin-bottom:2rem;
-}
-
-.article-cover img {
-  width:100%;
-  margin:2rem 0;
-  box-shadow:0 10px 30px rgba(0,0,0,0.08);
-}
-
-.article-body {
-  font-family:var(--font-serif);
-  text-align:justify;
-}
-
-.article-body p:first-of-type::first-letter {
-  font-size:2.8rem;
-  float:left;
-  padding-right:6px;
-}
+  @media (max-width: 640px) {
+    .nav-links { display: none; flex-direction: column; position: absolute; top: 150px; left: 0; right: 0; background: var(--surface); border-bottom: 1px solid var(--border); padding: 1rem 2rem; }
+    .nav-links.open { display: flex; }
+    .hamburger { display: flex; }
+    .articles-grid { grid-template-columns: 1fr; }
+    .hero .btn, .hero .btn-ghost { display: block; width: 100%; text-align: center; margin: 0 0 0.75rem 0; box-sizing: border-box; }
+  }
 </style>
 </head>
-
 <body>
 
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="#" onclick="showPage('home')"><img src="imagenes/logo-teandrico4.png" alt="Teándrico" style="height:150px;width:auto;display:block;"></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#" class="active" id="nav-home" onclick="showPage('home')">Inicio</a></li>
+      <li><a href="#" id="nav-articles" onclick="showPage('articles')">Artículos</a></li>
+      <li><a href="#" id="nav-about" onclick="showPage('about')">Sobre el proyecto</a></li>
+      <li><a href="#" id="nav-contact" onclick="showPage('contact')">Contacto</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
 <!-- HOME -->
-<div id="home">
-  <div class="articles-grid" id="home-grid"></div>
+<div class="page active" id="page-home">
+  <section class="hero">
+    <div style="max-width:1100px;margin:0 auto;">
+      <div class="hero-label">Teología · Reflexión Académica</div>
+      <h1>Haciendo teología en el continente digital</h1>
+      <p>Un espacio dedicado a la divulgación teológica a partir de la reflexión académica.</p>
+      <button class="btn" onclick="showPage('articles')">Explorar artículos</button>
+      <button class="btn btn-ghost" onclick="showPage('about')">Sobre el proyecto</button>
+    </div>
+  </section>
+  <div class="divider"><hr></div>
+  <div class="divider"><hr></div>
+
+  <!-- CLUB DE LECTURA -->
+  <section class="club-section">
+    <div class="club-inner">
+      <div class="club-book">
+        <img src="imagenes/libro-jesus-aproximacion-historica.jpg" alt="Jesús: Aproximación histórica - José Antonio Pagola" style="width:130px;box-shadow:0 8px 24px rgba(0,0,0,0.18);display:block;">
+      </div>
+      <div class="club-info">
+        <div class="section-label">Club de Lectura</div>
+        <h2>Jesús: Aproximación histórica</h2>
+        <div class="club-author">José Antonio Pagola</div>
+        <p>Estamos leyendo juntos una de las obras más rigurosas y apasionantes sobre el Jesús histórico. Únete a nuestro grupo de WhatsApp para participar en la discusión.</p>
+        <a class="btn-whatsapp" href="https://chat.whatsapp.com/JzV3pXCWawdCIChshMF4Bv" target="_blank">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Unirse al grupo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured">
+    <div class="section-label">Artículos recientes</div>
+    <div class="articles-grid" id="home-grid"></div>
+  </section>
 </div>
 
-<!-- ARTICLE -->
-<div id="article" style="display:none;">
-  <div class="article-view" id="article-content"></div>
+<!-- ARTICLES -->
+<div class="page" id="page-articles">
+  <div class="filter-bar">
+    <span>Filtrar:</span>
+    <button class="tag active" onclick="filterArticles('all', this)">Todos</button>
+    <button class="tag" onclick="filterArticles('Teología Bíblica', this)">Teología Bíblica</button>
+  </div>
+  <section class="featured">
+    <div class="articles-grid" id="articles-grid"></div>
+  </section>
 </div>
+
+<!-- ARTICLE VIEW -->
+<div class="page" id="page-article">
+  <div class="article-view">
+    <button class="back-btn" onclick="goBack()">← Volver a artículos</button>
+    <div id="article-content"></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="page-about">
+  <div class="about-page">
+    <div class="section-label">El proyecto</div>
+    <h1>Sobre Teándrico</h1>
+    <div class="mission-box">
+      <p>"Credo ut intelligam — creo para entender. Intelligam ut credam — entiendo para creer." — San Anselmo de Canterbury</p>
+    </div>
+    <p><em>Teándrico</em> es un proyecto de divulgación teológica fundado por Estiben Álvarez, un estudiante de la Universidad Católica de Oriente. Se trata de un espacio para compartir reflexiones teológicas desde una aproximación académica, con el fin de contribuir en el diálogo sobre la fe que se da en el continente digital.</p>
+    <p>El contenido que se produce en este espacio está dirigido a las personas que se interesan por temas como la fe, la espiritualidad, la religión y el cristianismo. Actualmente no se asume una posición confesional determinada, ya que en Teándrico se reconoce que las diferentes tradiciones teológicas que existen han contribuido de manera importante en áreas específicas.</p>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="page-contact">
+  <div class="contact-page">
+    <div class="section-label">Escríbenos</div>
+    <h1>Contacto</h1>
+    <p>¿Tienes preguntas, sugerencias o deseas colaborar con un artículo? Escríbenos, con gusto te respondemos.</p>
+    <br>
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf5-3iOvajl8TApqRyvmFXG4ZcraaMKQd1NJeb-b0AtH4VTyg/viewform?usp=publish-editor" target="_blank">Abrir formulario de contacto</a>
+  </div>
+</div>
+
+<footer>
+  <p><span>Teándrico</span> · Teología · © 2026</p>
+</footer>
 
 <script>
 const articles = [
-{
-  id:1,
-  cat:"Teología Bíblica",
-  title:"Henoteísmo: pensamientos acerca del Israel premonoteísta",
-  summary:"Una exploración de la evolución religiosa del pueblo de Israel...",
-  date:"5 de abril, 2026",
-  author:"Estiben Álvarez",
-  image:"imagenes/articulo-henoteismo.jpg",
-  body:`
-  <p>Que las religiones del mundo han evolucionado profundamente a lo largo de la historia...</p>
+  {
+    id: 1,
+    cat: "Teología Bíblica",
+    title: "Henoteísmo: pensamientos acerca del Israel premonoteísta",
+    summary: "Una exploración de la evolución religiosa del pueblo de Israel, desde el henoteísmo tribal hasta el monoteísmo profético, pasando por el yahvismo primitivo y la religión de Moisés.",
+    date: "5 de abril, 2026",
+    author: "Estiben Álvarez",
+    body: `    <p>Que las religiones del mundo −principalmente las que son antiguas y que en la actualidad continúan siendo considerablemente importantes− han existido tal y como se conocen al día de hoy, es un pensamiento realmente ingenuo. Las religiones y los dioses son tan antiguos como la historia misma, de hecho, los primeros escritos que produjo la humanidad, esas tablillas sumerias en cuneiforme del segundo milenio a. C., ya registraban cómo los dioses intervenían en las realidades terrenales con poderes y milagros. Sin embargo, la manera de pensar a Dios ha evolucionado desde las primeras intuiciones que asaltaron la mente del ser humano cuando se quedaba contemplando las estrellas en la noche, cuando le sobrevenía cierto sobrecogimiento que lo inducía a considerar el mundo más allá de lo tangible, cuando Dios comenzaba a revelársele. C. S. Lewis (2016) dice con relación a este sentimiento que:</p>
+    <blockquote>Al parecer, solo hay dos puntos de vista legítimos acerca del sobrecogimiento: o bien se trata de una peculiaridad de la mente humana sin la menor correspondencia con la realidad objetiva y sin función biológica alguna −pese a lo cual se muestra resistente a desaparecer de las mentes plenamente desarrolladas de los poetas, filósofos o santos−, o bien consiste en una experiencia directa de la realidad sobrenatural, a la que conviene propiamente el nombre de revelación. (p. 15)</blockquote>
 
-  <p>El henoteísmo representa una etapa intermedia clave entre el politeísmo y el monoteísmo...</p>
+    <p>Este "temor numinoso" −como llama Lewis a la experiencia de considerar el mundo espiritual− podría ser una forma de fe muy primitiva, el comienzo de la creencia en los dioses que le dan sentido a la existencia de todos los fenómenos naturales. Esta manera inicialmente politeísta de pensar acompañó al ser humano desde los albores de la civilización y fue padeciendo una serie de transformaciones hasta la actualidad. Una de esas etapas es conocida en el mundo académico moderno como henoteísmo: la consideración de una multiplicidad de dioses, pero la exclusividad de culto a una sola deidad. Acerca de este desarrollo religioso, Blanco (2017) va a decir que:</p>
+    <blockquote>No hay pruebas suficientes que sustenten esta teoría, amparada en la idea de que los pueblos menos desarrollados alumbraron la creencia en un dios celeste, creador y benefactor del universo, que podría ser identificado con la deidad única de las religiones monoteístas de matriz abrahamánica. Los datos sugieren más bien la hipótesis contraria, pues observamos una paulatina transformación del politeísmo (inicialmente bañado de rasgos claramente animistas) en henoteísmo, donde prima una deidad que ejerce funciones de superioridad jerárquica con respecto a los restantes dioses admitidos en un determinado panteón. (p. 23)</blockquote>
 
-  <h3>Una categoría teológica útil</h3>
-  <p>Esta categoría permite comprender mejor las tensiones religiosas antiguas...</p>
+    <h3>Una categoría teológica útil ante la complejidad de las creencias religiosas antiguas</h3>
+    <p>El henoteísmo, acuñado por el filósofo Friedrich Schelling y estudiado inicialmente en las religiones egipcia e india por el filólogo Max Müller, es una categoría teológica que dilucida el asunto de los comienzos de la religión (Ardèvol Piera, Munilla Cabrillana, Cervelló Autuori, Gracia Alonso, Martí Pérez, 2004). En las sociedades tribales primitivas, donde la cohesión social se basaba en grupos independientes, las creencias religiosas también eran fragmentadas. Cada tribu veneraba a sus propios dioses, reflejando su identidad y valores únicos. Sin embargo, con el surgimiento de las naciones, las estructuras políticas se complejizaron y las tribus se unieron bajo un mismo poder central. En este contexto, el henoteísmo comenzó a florecer. Esta creencia se caracterizaba por la adoración a un dios principal, a menudo asociado con el grupo dominante, sin negar la existencia de otras deidades menores. Finalmente llega el monoteísmo, el celeste reflejo del estado universal, todopoderoso y eterno (Rueda y Moreno, 1995).</p>
+    <p>En lo que concierne al mundo bíblico:</p>
+    <blockquote>La tradición hebrea en sus fases más antiguas se centra en la idea de un Dios único y verdadero, Yahvé, y del pacto entre Dios y su pueblo. Pero este Dios se presenta como el único para Israel, no como el único en términos absolutos. (Ardèvol Piera et al., 2004, p. 155)</blockquote>
+    <p>Las religiones antiguas, como la egipcia y la hebrea, no encajan siempre en las categorías simples de politeísmo y monoteísmo. En el caso de la religión egipcia, si bien se veneraba a una multitud de dioses y diosas, existía la idea de un dios supremo, Ra, que era considerado el creador y sustentador del universo. Por otro lado, la religión hebrea, que se suele considerar monoteísta por excelencia, presenta una evolución en su concepción de Dios. En sus inicios, la ley prohibía el culto a otros dioses, pero no negaba su existencia, considerándolos inferiores a Yahvé. Esta postura podría definirse como "monolatría", donde Yahvé era el único dios digno de adoración para el pueblo hebreo, pero no el único dios que existía en el mundo. Esta actitud era una forma de henoteísmo más exclusivista porque restaba validez a la adoración que los demás pueblos rendían a sus dioses. Solo con la literatura profética postexílica se afianzó la idea de la unicidad absoluta de Yahvé, negando la existencia de cualquier otra deidad (Ardèvol Piera et al., 2004).</p>
+    <blockquote>Hasta donde llegan nuestros conocimientos históricos, en el comienzo estarían las tribus o grupos humanos. Estos adorarían a un Dios como único Dios de la tribu o del clan. Junto a este Dios irían apareciendo otros dioses. En los pueblos desarrollados (sumerios, hititas, babilonios, asirios, egipcios, griegos, romanos) nos encontramos con multitud de dioses que sirven para divinizar las fuerzas de la naturaleza y apadrinar las diversas tareas. Generalmente, entre esta multitud de dioses, se encuentra un Dios supremo como garantía de la identidad de la nación o del sistema político. (Seco, 2016, p. 464)</blockquote>
 
-  <h3>Conclusión</h3>
-  <p>Las religiones son procesos dinámicos que evolucionan históricamente...</p>
-  `
-}
+    <h3>La religión del padre</h3>
+    <p>En el caso de Israel, es de vital importancia ubicarse en la prehistoria del judaísmo, en el yahvismo primitivo: aquí se encuentra la "religión del padre", un concepto fundamental para entender la teología de estas personas. Esta religión familiar, basada en la confianza mutua y la cercanía, sirvió como base para que Dios comenzara a revelarse gradualmente, sentando las bases de una singular "historia de salvación". Si bien el adorador reconocía la existencia de otras deidades asociadas a diferentes grupos familiares o clanes, −y hasta juraba por ellas−, su devoción y lealtad se centraban exclusivamente en el dios de su propio linaje (Rodríguez, 2001). En Génesis 31, por ejemplo, Labán pone por testigos al Dios de Abraham y al dios de Najor en un acuerdo que celebra con Jacob:</p>
+    <blockquote>El Dios de Abraham y el Dios de Najor juzguen entre nosotros. Y Jacob juró por el Padrino de su padre Isaac. Jacob hizo un sacrificio en el monte e invitó a sus hermanos a tomar parte. Ellos tomaron parte, e hicieron noche en el monte. (Biblia de Jerusalén, 2009)</blockquote>
+
+    <h3>La religión de Moisés</h3>
+    <p>Con Moisés todavía está presente la idea henoteísta: el mandamiento básico del yahvismo presente en Deuteronomio 6 tampoco pretende negar la existencia de otros dioses, de nuevo su sentido es monolátrico y no monoteísta. En este caso, el judío aún admite la existencia de otros dioses, pero sólo Yahvé actúa para él, acompañándole y salvándole, por eso es el único merecedor de su culto. Esta es la religión de Moisés, donde Dios es presentado como celoso y exclusivo. Esta intolerancia distingue la religión de Israel de todas las del antiguo Oriente. La lucha contra otros dioses comenzó al salir del desierto, con la entrada en Palestina. Como los cananeos y otros pueblos tenían sus propios dioses y cultos con facetas atrayentes, Israel tuvo que luchar constantemente contra el peligro de darles culto (Rodríguez, 2001).</p>
+    <blockquote>Israel se estableció en Sittim. Y el pueblo se puso a fornicar con las hijas de Moab. Estas invitaron al pueblo a los sacrificios de sus dioses, y el pueblo comió y se postró ante sus dioses. Israel se adhirió así al Baal de Peor, y se encendió la ira de Yahveh contra Israel. Dijo Yahveh a Moisés: «Toma a todos los jefes del pueblo y empálalos en honor de Yahveh, cara al sol; así cederá el furor de la cólera de Yahveh contra Israel.» Dijo Moisés a los jueces de Israel: «Matad cada uno a los vuestros que se hayan adherido a Baal de Peor.» (Biblia de Jerusalén, 2009)</blockquote>
+
+    <h3>Los profetas: precursores del monoteísmo en Israel</h3>
+    <p>Por parte de los profetas, Dios comienza a tener una interpretación medianamente diferente. El profeta −un hombre que hablaba en nombre de Dios y transmitía la palabra a la luz de la promesa y la alianza, que con las credenciales "Así dice Yahvé" criticaba, condenaba, aprobaba y exhortaba a los israelitas−, comienza a pensar a Dios con una singularidad más radical. Al interior de su discurso de religiosidad moral y de fraternidad entre el pueblo aparece una profundización en la concepción de Yahvé, presentándolo en una línea decididamente monoteísta, como defensor de los pobres y débiles. Así lo evidencia Isaías 45, por ejemplo:</p>
+    <blockquote>Pues así dice Yahveh, creador de los cielos, él, que es Dios, plasmador de la tierra y su hacedor, él, que la ha fundamentado, y no la creó caótica, sino que para ser habitada la plasmó: «Yo soy Yahveh, no existe ningún otro.» (Biblia de Jerusalén, 2009)</blockquote>
+
+    <h3>Una breve conclusión</h3>
+    <p>Las religiones, lejos de ser estáticas e inmutables, son producto de un proceso complejo y dinámico. A lo largo de la historia, las creencias han evolucionado, adaptándose a las realidades sociales, culturales y políticas de cada época. La teología bíblica, como disciplina académica, ofrece herramientas valiosas para comprender este proceso de evolución. Al estudiar los textos bíblicos en su contexto histórico y cultural, se puede apreciar la riqueza y diversidad de las experiencias religiosas del pueblo de Israel. Lejos de presentar una visión única y definitiva de Dios, la Biblia muestra una trayectoria de fe que se desarrolla a lo largo del tiempo.</p>
+    <p>En este camino encontramos desde el henoteísmo tribal hasta el monoteísmo profético, pasando por el yahvismo primitivo y la religión de Moisés, que cada etapa ha aportado su propia comprensión de Dios y su relación con la humanidad. El pueblo de Israel, al igual que otras culturas antiguas, no ha tenido una concepción perfecta e inmutable de Dios. Su fe ha ido madurando a través de los siglos, confrontando desafíos, cuestionamientos y nuevas revelaciones.</p>
+    <p>Es importante reconocer esta evolución para evitar lecturas fundamentalistas o literalistas de la Biblia que no hacen justicia a la complejidad de la experiencia religiosa. En este sentido, la teología bíblica hace una invitación para estudiar las Escrituras con rigor intelectual y humildad espiritual. Solo así podremos comprender la profundidad y el alcance del mensaje bíblico, y cultivar una fe madura y comprometida con la realidad del mundo actual. Al comprender las raíces históricas y culturales de nuestras tradiciones religiosas, podemos participar de manera más responsable en el diálogo interreligioso y la construcción de una sociedad más fraterna.</p>`
+  }
 ];
 
-function renderCards() {
-  const el = document.getElementById("home-grid");
+let prevPage = 'articles';
+let currentFilter = 'all';
 
-  el.innerHTML = articles.map(a => `
+function renderCards(container, items) {
+  const el = document.getElementById(container);
+  el.innerHTML = items.map(a => `
     <div class="card" onclick="openArticle(${a.id})">
-      <div class="card-image" style="background-image:url('${a.image}')"></div>
-      <div class="card-content">
-        <div class="card-cat">${a.cat}</div>
-        <h3>${a.title}</h3>
-        <p>${a.summary}</p>
-      </div>
+      <div class="card-cat">${a.cat}</div>
+      <h3>${a.title}</h3>
+      <p>${a.summary}</p>
+      <div class="card-meta">${a.date}</div>
     </div>
-  `).join("");
+  `).join('');
 }
 
-function openArticle(id){
-  const a = articles.find(x=>x.id===id);
-
-  document.getElementById("home").style.display="none";
-  document.getElementById("article").style.display="block";
-
-  document.getElementById("article-content").innerHTML = `
+function openArticle(id) {
+  const a = articles.find(x => x.id === id);
+  if (!a) return;
+  prevPage = document.querySelector('.page.active').id.replace('page-','');
+  document.getElementById('article-content').innerHTML = `
+    <div class="article-cat">${a.cat}</div>
     <h1 class="article-title">${a.title}</h1>
     <div class="article-meta">${a.date} · ${a.author}</div>
-
-    <div class="article-cover">
-      <img src="${a.image}">
-    </div>
-
     <div class="article-body">${a.body}</div>
-
-    <br><br>
-    <button onclick="goBack()">← Volver</button>
   `;
+  showPage('article', false);
 }
 
-function goBack(){
-  document.getElementById("home").style.display="block";
-  document.getElementById("article").style.display="none";
+function goBack() { showPage(prevPage, false); }
+
+function showPage(name, scroll=true) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  const navEl = document.getElementById('nav-' + name);
+  if (navEl) navEl.classList.add('active');
+  if (scroll) window.scrollTo(0, 0);
+  closeMenu();
+  return false;
 }
 
-renderCards();
+function filterArticles(cat, btn) {
+  currentFilter = cat;
+  document.querySelectorAll('.tag').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  const filtered = cat === 'all' ? articles : articles.filter(a => a.cat === cat);
+  renderCards('articles-grid', filtered);
+}
+
+function toggleMenu() {
+  document.getElementById('navLinks').classList.toggle('open');
+}
+function closeMenu() {
+  document.getElementById('navLinks').classList.remove('open');
+}
+
+function submitForm() {
+  const n = document.getElementById('c-name').value;
+  const e = document.getElementById('c-email').value;
+  const m = document.getElementById('c-msg').value;
+  if (!n || !e || !m) { alert('Por favor completa todos los campos.'); return; }
+  document.getElementById('success-msg').style.display = 'block';
+  document.getElementById('c-name').value = '';
+  document.getElementById('c-email').value = '';
+  document.getElementById('c-msg').value = '';
+}
+
+// Init
+renderCards('home-grid', articles.slice(0, 3));
+renderCards('articles-grid', articles);
 </script>
-
 </body>
 </html>
