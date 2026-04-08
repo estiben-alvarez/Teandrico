@@ -6,80 +6,47 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Colores de Teándrico */
-a {
-  color: #1a1a1a;
+/* ================================
+   TEÁNDRICO - Estilos personalizados
+   ================================ */
+
+/* Tipografía */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif !important;
 }
 
-a:hover {
-  color: #f5c842;
-}
-
-.masthead {
-  background-color: #ffffff;
-  border-bottom: 2px solid #f5c842;
-}
-
-.masthead__inner-wrap {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
-
-.site-title {
-  font-family: Georgia, serif;
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.page__title,
+.archive__item-title {
+  font-family: Georgia, "Times New Roman", serif !important;
   color: #1a1a1a !important;
+}
+
+/* Enlaces */
+a, a:visited {
+  color: #1a1a1a !important;
+}
+
+a:hover, a:focus {
+  color: #f5c842 !important;
+}
+
+/* Menú de navegación */
+.masthead {
+  background-color: #ffffff !important;
+  border-bottom: 2px solid #f5c842 !important;
+}
+
+.greedy-nav {
+  background-color: #ffffff !important;
 }
 
 .greedy-nav a {
-  color: #1a1a1a;
+  color: #1a1a1a !important;
 }
 
 .greedy-nav a:hover {
-  color: #f5c842;
-}
-
-h1, h2, h3, h4 {
-  font-family: Georgia, "Times New Roman", serif;
-  color: #1a1a1a;
-}
-
-.page__content p {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
-
-.btn--primary {
-  background-color: #f5c842;
-  color: #1a1a1a;
-  border-color: #f5c842;
-}
-
-.page__footer {
-  background-color: #1a1a1a;
-}
-
-/* Eliminar azules de Minimal Mistakes */
-.btn--primary,
-.btn--inverse {
-  background-color: #f5c842 !important;
-  color: #1a1a1a !important;
-  border-color: #f5c842 !important;
-}
-
-.pagination--pager {
-  background-color: #f5c842 !important;
-  color: #1a1a1a !important;
-  border-color: #f5c842 !important;
-}
-
-.nav__list .active {
-  background-color: #f5c842 !important;
-  color: #1a1a1a !important;
-}
-
-a {
-  color: #1a1a1a !important;
-}
-
-a:hover {
   color: #f5c842 !important;
 }
 
@@ -87,22 +54,36 @@ a:hover {
   background: #f5c842 !important;
 }
 
-/* Citas en dorado */
+/* Citas */
 blockquote {
   border-left: 4px solid #f5c842 !important;
-  background-color: #f9f9f9;
-  color: #1a1a1a;
-}
-/* Hover del menú en dorado */
-.greedy-nav .visible-links a:before {
-  background: #f5c842 !important;
+  background-color: #fafafa !important;
+  color: #444444 !important;
+  font-style: italic;
 }
 
-.greedy-nav .visible-links a:hover {
+/* Botones */
+.btn,
+.btn--primary,
+.btn--inverse,
+.btn--success {
+  background-color: #f5c842 !important;
+  color: #1a1a1a !important;
+  border-color: #f5c842 !important;
+}
+
+.btn:hover,
+.btn--primary:hover {
+  background-color: #e0b030 !important;
+  color: #1a1a1a !important;
+}
+
+/* Pie de página */
+.page__footer {
+  background-color: #1a1a1a !important;
+  color: #aaaaaa !important;
+}
+
+.page__footer a {
   color: #f5c842 !important;
-}
-
-/* Borde citas en dorado */
-blockquote {
-  border-left-color: #f5c842 !important;
 }
