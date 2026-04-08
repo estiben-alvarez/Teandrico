@@ -1,18 +1,12 @@
 ---
-layout: page
-title: About
-permalink: /about/
+title: "Sobre el proyecto"
+layout: single
+permalink: /sobre-el-proyecto/
+author_profile: false
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+> "Credo ut intelligam — creo para entender. Intelligam ut credam — entiendo para creer." — San Anselmo de Canterbury
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+*Teándrico* es un proyecto de divulgación teológica fundado por Estiben Álvarez, un estudiante de la Universidad Católica de Oriente. Se trata de un espacio para compartir reflexiones teológicas desde una aproximación académica, con el fin de contribuir en el diálogo sobre la fe que se da en el continente digital.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+El contenido que se produce en este espacio está dirigido a las personas que se interesan por temas como la fe, la espiritualidad, la religión y el cristianismo. Actualmente no se asume una posición confesional determinada, ya que en Teándrico se reconoce que las diferentes tradiciones teológicas que existen han contribuido de manera importante en áreas específicas.
