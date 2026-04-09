@@ -6,6 +6,8 @@ tags: [henoteísmo, Israel, Antiguo Testamento, monoteísmo, yahvismo]
 author: "Estiben Álvarez"
 excerpt: "Una exploración de la evolución religiosa del pueblo de Israel, desde el henoteísmo tribal hasta el monoteísmo profético, pasando por el yahvismo primitivo y la religión de Moisés."
 layout: single
+  image: /imagenes/artículo-henoteismo.jpg
+  teaser: /imagenes/artículo-henoteismo.jpg
 ---
 
 ## Desde la experiencia numinosa hacia la creencia en Dios
