@@ -39,3 +39,5 @@ navigation:
     - title: "Contacto"
       url: /contacto/
 
+archive:
+  type: grid
