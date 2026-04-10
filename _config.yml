@@ -46,3 +46,5 @@ defaults:
       author_profile: true
       show_date: true
       teaser: /imagenes/artículo-henoteismo.jpg
+
+favicon: /favicon-teandrico.png
