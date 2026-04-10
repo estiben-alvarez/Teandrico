@@ -68,9 +68,9 @@ a.site-title img {
 }
 
 .site-logo img {
-  height: 80px !important;
+  height: 120px !important;
   width: auto !important;
-  max-height: 80px !important;
+  max-height: 120px !important;
   object-fit: contain !important;
 }
 
@@ -170,6 +170,12 @@ button.greedy-nav__toggle {
 img.u-photo {
   width: 110px !important;
   height: 110px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+.author__avatar img {
   border-radius: 50% !important;
   object-fit: cover !important;
 }
