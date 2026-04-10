@@ -209,18 +209,10 @@ a.site-title img {
     margin-top: 0.5rem;
   }
 }
-/* Foto del autor perfectamente redonda */
-.author__avatar img.u-photo {
+/* Foto del autor redonda */
+.author__avatar img {
   width: 110px !important;
   height: 110px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
-  object-position: center !important;
-}
-
-.author__avatar {
-  width: 110px !important;
-  height: 110px !important;
-  border-radius: 50% !important;
-  overflow: hidden !important;
 }
