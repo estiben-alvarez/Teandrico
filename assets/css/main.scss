@@ -188,10 +188,6 @@ img.u-photo {
   display: block !important;
 }
 
-/* Mostrar botón de búsqueda */
-.search__toggle {
-  display: block !important;
-  visibility: visible !important;
 }
 
 /* Mostrar descripción en tarjetas en móvil */
@@ -210,17 +206,13 @@ img.u-photo {
   }
 }
 
-/* Logo más grande en móvil */
-@media (max-width: 640px) {
-  .site-logo img {
-    height: 50px !important;
-    max-height: 50px !important;
-  }
+.site-logo img {
+  height: 80px !important;
+  width: auto !important;
+  max-height: 80px !important;
+  object-fit: contain !important;
 }
-
-/* Lupa en negro */
-.search__toggle {
-  color: #1a1a1a !important;
+  }
 }
 
 .search__toggle svg {
