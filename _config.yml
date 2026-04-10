@@ -40,7 +40,7 @@ defaults:
     values:
       author_profile: true
       show_date: true
-      share: true
+      share: false
   - scope:
       path: ""
       type: posts
