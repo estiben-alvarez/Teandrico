@@ -210,7 +210,13 @@ a.site-title img {
   }
 }
 /* Foto del autor redonda */
-img.u-photo {
+.author__avatar img.u-photo {
   border-radius: 50% !important;
-  max-width: 110px !important;
+  overflow: hidden !important;
+  object-fit: cover !important;
+}
+
+.author__avatar {
+  border-radius: 50% !important;
+  overflow: hidden !important;
 }
