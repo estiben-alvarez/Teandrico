@@ -190,4 +190,22 @@ button.greedy-nav__toggle {
   display: none !important;
 }
 
-.author__urls
+.author__urls {
+  display: block !important;
+}
+
+/* Mostrar descripción en tarjetas en móvil */
+@media (max-width: 640px) {
+  .archive__item-excerpt {
+    display: block !important;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+
+  .page__hero--overlay .btn {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 0.5rem !important;
+  }
+}
