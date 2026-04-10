@@ -3,6 +3,7 @@ title: "Henoteísmo: pensamientos acerca del Israel premonoteísta"
 date: 2026-04-05
 categories: [Teología Bíblica]
 tags: [henoteísmo, Israel, Antiguo Testamento, monoteísmo, yahvismo]
+show_tags: true
 author: "Estiben Álvarez"
 excerpt: "Una exploración de la evolución religiosa del pueblo de Israel, desde el henoteísmo tribal hasta el monoteísmo profético."
 layout: single
