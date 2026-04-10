@@ -168,9 +168,9 @@ a.site-title img {
 
 /* Logo */
 .site-logo img {
-  max-height: 100px !important;
+  max-height: 70px !important;
   width: auto !important;
-  height: 100px !important;
+  height: 70px !important;
 
 }
 
@@ -205,4 +205,9 @@ a.site-title img {
     text-align: center !important;
     margin-bottom: 0.5rem !important;
   }
+}
+
+/* Masthead compacto */
+.masthead__inner-wrap {
+  padding: 0 1rem !important;
 }
