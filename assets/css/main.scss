@@ -232,12 +232,13 @@ a.site-title img {
   visibility: visible !important;
 }
 
-/* Reducir tamaño del menú para que quepan todos los enlaces */
-.greedy-nav .visible-links a {
-  font-size: 0.75rem !important;
-  padding: 0.5rem 0.5rem !important;
+/* Menú compacto */
+.greedy-nav .visible-links {
+  gap: 0 !important;
 }
 
-.greedy-nav {
-  gap: 0 !important;
+.greedy-nav .visible-links a {
+  font-size: 0.7rem !important;
+  padding: 0.3rem 0.4rem !important;
+  letter-spacing: 0 !important;
 }
