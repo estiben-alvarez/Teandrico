@@ -18,7 +18,7 @@ author:
       url: "https://www.instagram.com/estiben_alvarez7/"
     - label: "Correo"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:respaldo357183n+teandrico@gmail.com"
+      url: "https://mail.google.com/mail/?view=cm&to=respaldo357183n+teandrico@gmail.com"
 
 plugins:
   - jekyll-feed
