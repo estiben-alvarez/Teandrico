@@ -54,26 +54,6 @@ a:hover, a:focus {
   background: #f5c842 !important;
 }
 
-/* Logo */
-a.site-title {
-  visibility: hidden !important;
-  width: 0 !important;
-  overflow: hidden !important;
-  display: inline-block !important;
-}
-
-a.site-title img {
-  visibility: visible !important;
-  width: auto !important;
-}
-
-.site-logo img {
-  height: 120px !important;
-  width: auto !important;
-  max-height: 120px !important;
-  object-fit: contain !important;
-}
-
 /* Citas */
 blockquote {
   border-left: 4px solid #f5c842 !important;
@@ -166,23 +146,32 @@ button.greedy-nav__toggle {
   background: #1a1a1a !important;
 }
 
+/* Ocultar texto del sitio */
+a.site-title {
+  visibility: hidden !important;
+  width: 0 !important;
+  overflow: hidden !important;
+  display: inline-block !important;
+}
+
+a.site-title img {
+  visibility: visible !important;
+  width: auto !important;
+}
+
+/* Logo */
+.site-logo img {
+  max-height: 150px !important;
+  width: auto !important;
+  height: 150px !important;
+}
+
 /* Foto del autor redonda */
-img.u-photo {
+.author__avatar img {
   width: 110px !important;
   height: 110px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
-  object-position: center !important;
-}
-
-.author__avatar img {
-  border-radius: 50% !important;
-  object-fit: cover !important;
-}
-
-.author__avatar {
-  border-radius: 50% !important;
-  overflow: hidden !important;
 }
 
 /* Quitar botón Follow */
