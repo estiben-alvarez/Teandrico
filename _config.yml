@@ -4,9 +4,7 @@ description: "Un espacio dedicado a la divulgación teológica a partir de la re
 url: "https://teandrico.com"
 baseurl: ""
 lang: "es"
-
 # theme: minimal-mistakes-jekyll
-
 minimal_mistakes_skin: "air"
 
 author:
@@ -31,41 +29,15 @@ plugins:
 
 paginate: 5
 paginate_path: "/articulos/page:num/"
-
 permalink: /articulos/:title/
-
 remote_theme: mmistakes/minimal-mistakes
 
-navigation:
-  main:
-    - title: "Inicio"
-      url: /
-    - title: "Artículos"
-      url: /articulos/
-    - title: "Club de Lectura"
-      url: /club-de-lectura/
-    - title: "Sobre el proyecto"
-      url: /sobre-el-proyecto/
-    - title: "Contacto"
-      url: /contacto/
-
-archive:
-  type: grid
-
 defaults:
   - scope:
       path: ""
-      type: posts
-    values:
-      show_date: true
-      teaser: /imagenes/articulo-henoteismo.jpg
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
     values:
       author_profile: true
+      show_date: true
   - scope:
       path: ""
       type: posts
