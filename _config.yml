@@ -54,3 +54,7 @@ defaults:
 favicon: /favicon-teandrico.png
 
 share: true
+
+tag_archive:
+  type: liquid
+  path: /tags/
