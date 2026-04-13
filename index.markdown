@@ -63,4 +63,19 @@ title: "Haciendo teología en el continente digital"
   </div>
 
   <button onclick="moverCarrusel(-1)" style="position:absolute;left:0;top:50%;transform:translateY(-50%);background:#f5c842;border:none;padding:0.5rem 1rem;cursor:pointer;font-size:1.2rem;z-index:10;">‹</button>
-  <button onclick="moverCarrusel(1)" style="position:absolute;right:0;top:
+  <button onclick="moverCarrusel(1)" style="position:absolute;right:0;top:50%;transform:translateY(-50%);background:#f5c842;border:none;padding:0.5rem 1rem;cursor:pointer;font-size:1.2rem;z-index:10;">›</button>
+</div>
+
+<script>
+  var actual = 0;
+  var total = {{ site.posts.size }};
+
+  function moverCarrusel(dir) {
+    actual = (actual + dir + total) % total;
+    document.getElementById('carrusel').style.transform = 'translateX(-' + (actual * 100) + '%)';
+  }
+
+  setInterval(function() {
+    moverCarrusel(1);
+  }, 5000);
+</script>
