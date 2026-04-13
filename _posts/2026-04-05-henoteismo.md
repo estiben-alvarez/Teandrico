@@ -11,8 +11,10 @@ author_profile: true
 header:
   teaser: /imagenes/foto-articulo-henoteismo-2.jpg
 ---
-*Por Estiben Álvarez*
 ![Henoteísmo](/imagenes/foto-articulo-henoteismo-2.jpg)
+
+<p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
+
 ## Desde la experiencia numinosa hacia la creencia en Dios
 
 Que las religiones del mundo −principalmente las que son antiguas y que en la actualidad continúan siendo considerablemente importantes− han existido tal y como se conocen al día de hoy, es un pensamiento realmente ingenuo. Las religiones y los dioses son tan antiguos como la historia misma, de hecho, los primeros escritos que produjo la humanidad, esas tablillas sumerias en cuneiforme del segundo milenio a. C., ya registraban cómo los dioses intervenían en las realidades terrenales con poderes y milagros. Sin embargo, la manera de pensar a Dios ha evolucionado desde las primeras intuiciones que asaltaron la mente del ser humano cuando se quedaba contemplando las estrellas en la noche, cuando le sobrevenía cierto sobrecogimiento que lo inducía a considerar el mundo más allá de lo tangible, cuando Dios comenzaba a revelársele. C. S. Lewis (2016) dice con relación a este sentimiento que:
