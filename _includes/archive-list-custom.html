@@ -1,17 +1,20 @@
 {% for post in site.posts %}
-<div class="article-list-item" style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid #e5e5e0;">
+<div class="article-list-item" style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;padding:1.5rem;background:#ffffff;border:1px solid #e5e5e0;transition:box-shadow 0.2s;">
   {% if post.header.teaser %}
   <a href="{{ post.url }}" style="flex-shrink:0;">
-    <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:200px;height:140px;object-fit:cover;">
+    <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:200px;height:140px;object-fit:cover;display:block;">
   </a>
   {% endif %}
-  <div>
-    <h2 style="font-family:Georgia,serif;font-size:1.2rem;font-weight:normal;margin:0 0 0.5rem 0;">
+  <div style="flex:1;">
+    {% if post.categories %}
+    <div style="font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;display:inline-block;padding:0.15rem 0.5rem;margin-bottom:0.6rem;">{{ post.categories | first }}</div>
+    {% endif %}
+    <h2 style="font-family:Georgia,serif;font-size:1.2rem;font-weight:normal;margin:0 0 0.4rem 0;line-height:1.4;">
       <a href="{{ post.url }}" style="color:#1a1a1a;text-decoration:none;">{{ post.title }}</a>
     </h2>
-    <p style="font-size:0.8rem;color:#aaa;margin:0 0 0.5rem 0;">{{ post.date | date: "%B %d, %Y" }}</p>
-    <p style="font-size:0.95rem;color:#444;margin:0;">{{ post.excerpt | strip_html | truncate: 150 }}</p>
-    <a href="{{ post.url }}" style="display:inline-block;margin-top:0.8rem;font-size:0.8rem;color:#1a1a1a;text-decoration:underline;">Leer más →</a>
+    <p style="font-size:0.78rem;color:#aaa;margin:0 0 0.6rem 0;">{{ post.date | date: "%B %d, %Y" }}</p>
+    <p style="font-size:0.92rem;color:#444;margin:0 0 1rem 0;line-height:1.6;">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+    <a href="{{ post.url }}" style="display:inline-block;padding:0.4rem 1rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:0.78rem;letter-spacing:0.05em;text-transform:uppercase;">Leer más</a>
   </div>
 </div>
 {% endfor %}
