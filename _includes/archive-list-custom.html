@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-<div style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid #e5e5e0;">
+<div class="article-list-item" style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid #e5e5e0;">
   {% if post.header.teaser %}
   <a href="{{ post.url }}" style="flex-shrink:0;">
     <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:200px;height:140px;object-fit:cover;">
