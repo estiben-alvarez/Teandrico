@@ -7,7 +7,7 @@ show_tags: true
 author: "Estiben Álvarez"
 excerpt: "Una exploración de la evolución religiosa del pueblo de Israel, desde el henoteísmo tribal hasta el monoteísmo profético."
 layout: single
-author_profile: true
+author_profile: false
 header:
   teaser: /imagenes/foto-articulo-henoteismo-2.jpg
 ---
