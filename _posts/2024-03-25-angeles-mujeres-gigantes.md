@@ -5,7 +5,7 @@ date_string: "25 de marzo de 2024"
 categories: [Teología Bíblica]
 tags: [Génesis, nefilim, mitología, Antiguo Testamento, ángeles, diluvio]
 author: "Estiben Álvarez"
-excerpt: "Una investigación sobre el misterioso pasaje de Génesis 6:1-4, donde los hijos de Dios se unen con las hijas de los hombres, dando origen a los nefilim."
+excerpt: "Una investigación académica sobre Génesis 6:1-4, donde los hijos de Dios se unen con las hijas de los hombres, dando origen a los nefilim."
 layout: single
 author_profile: false
 share: true
