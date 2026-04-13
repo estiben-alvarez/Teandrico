@@ -61,13 +61,3 @@ tag_archive:
 
 search: false
 
-authors:
-  estiben-alvarez:
-    name: "Estiben Álvarez"
-    avatar: "/imagenes/foto-estiben-alvarez2.jpg"
-    bio: "Estudiante de teología en la Universidad Católica de Oriente. Fundador de Teándrico."
-    location: "Colombia"
-    links:
-      - label: "Instagram"
-        icon: "fab fa-fw fa-instagram"
-        url: "https://www.instagram.com/estiben_alvarez7/"
