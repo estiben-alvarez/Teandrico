@@ -12,6 +12,7 @@ header:
   teaser: /imagenes/foto-articulo-henoteismo-2.jpg
 ---
 ![Henoteísmo](/imagenes/foto-articulo-henoteismo-2.jpg)
+*© The Trustees of the British Museum. Shared under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) licence.*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
 
