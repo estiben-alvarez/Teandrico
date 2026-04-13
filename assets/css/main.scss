@@ -221,3 +221,15 @@ button.greedy-nav__toggle {
   width: 100% !important;
   object-fit: cover !important;
 }
+
+/* Carrusel compacto en móvil */
+@media (max-width: 640px) {
+  #carrusel > div > div {
+    flex-direction: column !important;
+  }
+
+  #carrusel img {
+    width: 100% !important;
+    height: 180px !important;
+  }
+}
