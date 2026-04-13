@@ -39,7 +39,28 @@ title: "Haciendo teología en el continente digital"
 
 <h3 class="archive__subtitle">Artículos recientes</h3>
 
-{% assign posts = site.posts %}
-{% for post in posts %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+<div style="position:relative;overflow:hidden;margin-bottom:3rem;">
+  <div id="carrusel" style="display:flex;transition:transform 0.5s ease;will-change:transform;">
+    {% for post in site.posts %}
+    <div style="min-width:100%;box-sizing:border-box;padding:0 0.5rem;">
+      <div style="display:flex;gap:1.5rem;align-items:flex-start;background:#fff;border:1px solid #e5e5e0;padding:1.5rem;">
+        {% if post.header.teaser %}
+        <a href="{{ post.url }}" style="flex-shrink:0;">
+          <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:180px;height:130px;object-fit:cover;">
+        </a>
+        {% endif %}
+        <div>
+          <h3 style="font-family:Georgia,serif;font-size:1.2rem;font-weight:normal;margin:0 0 0.5rem 0;">
+            <a href="{{ post.url }}" style="color:#1a1a1a;text-decoration:none;">{{ post.title }}</a>
+          </h3>
+          <p style="font-size:0.8rem;color:#aaa;margin:0 0 0.5rem 0;">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p style="font-size:0.9rem;color:#444;margin:0;">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+          <a href="{{ post.url }}" style="display:inline-block;margin-top:0.8rem;font-size:0.8rem;color:#1a1a1a;text-decoration:underline;">Leer más →</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <button onclick="moverCarrusel(-1)" style="position:absolute;left:0;top:50%;transform:translateY(-50%);background:#f5c842;border:none;padding:0.5rem 1rem;cursor:pointer;font-size:1.2rem;z-index:10;">‹</button>
+  <button onclick="moverCarrusel(1)" style="position:absolute;right:0;top:
