@@ -5,7 +5,7 @@ date_string: "13 de abril de 2026"
 categories: [Opinión]
 tags: [geopolítica, reino de Dios, Doctrina Social de la Iglesia, cristología, política]
 author: "Estiben Álvarez"
-excerpt: "Una nota de opinión personal sobre las realidades geopolíticas actuales desde la experiencia de un estudiante de teología y cristiano."
+excerpt: "Una nota de opinión personal sobre las realidades geopolíticas actuales desde la Doctrina Social de la Iglesia y una aproximación histórica de Jesús."
 layout: single
 author_profile: false
 share: true
