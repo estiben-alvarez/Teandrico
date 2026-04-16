@@ -13,6 +13,9 @@ header:
   teaser: /imagenes/foto-articulo-teologia.jpg
 ---
 
+![All Saints](/imagenes/foto-articulo-teologia.jpg)
+*"All Saints" (Todos los Santos) — Elizabeth Wang.*
+
 *Artículo publicado originalmente en [βιtăkorα βιblιkα](https://bitacorabiblica715145048.wordpress.com/2025/10/13/que-es-la-teologia/) y republicado con autorización del autor.*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:0.5rem;">Por <strong>Sebastián Hernández</strong></p>
