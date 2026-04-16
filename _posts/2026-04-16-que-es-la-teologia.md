@@ -18,8 +18,8 @@ header:
 
 *Artículo publicado originalmente en [βιtăkorα βιblιkα](https://bitacorabiblica715145048.wordpress.com/2025/10/13/que-es-la-teologia/) y republicado con autorización del autor.*
 
-**Por Sebastián Hernández**
-*PhD en Teología, Universidad Pontificia Bolivariana. Docente del programa de teología en la Universidad Católica Luis Amigó. Miembro de la Red de teólogos del CEBITEPAL-CELAM y la Sociedad Iberoamericana de Antropología Filosófica (SIAF).*
+<p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:0.5rem;">Por <strong>Sebastián Hernández</strong></p>
+<p style="font-size:0.82rem;color:#6b6b6b;margin-bottom:2rem;">PhD en Teología, Universidad Pontificia Bolivariana. Docente del programa de teología en la Universidad Católica Luis Amigó. Miembro de la Red de teólogos del CEBITEPAL-CELAM y la Sociedad Iberoamericana de Antropología Filosófica (SIAF). <a href="https://bitacorabiblica715145048.wordpress.com/">Sitio web</a> · <a href="https://www.instagram.com/sebastianhernandez1117/">Instagram</a></p>
 
 ## ¿Qué es la teología?
 
