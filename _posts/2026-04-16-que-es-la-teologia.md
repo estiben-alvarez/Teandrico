@@ -11,6 +11,9 @@ author_profile: false
 share: true
 header:
   teaser: /imagenes/foto-articulo-teologia.jpg
+  og_image: /imagenes/foto-articulo-teologia.jpg
+
+image: /imagenes/foto-articulo-teologia.jpg
 ---
 
 ![All Saints](/imagenes/foto-articulo-teologia.jpg)
