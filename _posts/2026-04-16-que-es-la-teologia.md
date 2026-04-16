@@ -73,9 +73,11 @@ El primer teólogo cristiano que partió en su reflexión desde la premisa de un
 
 ## Notas al final del artículo
 
-[^1]: Como se verá, por su origen, la teología no es un discurso cristiano. Luego sí lo será. Algunos lectores podrán encontrar inapropiado, incluso ofensivo, el tratamiento de la palabra dios sin mayúscula inicial. El único propósito de este tratamiento durante esta primera sección es resaltar este origen que señalamos.
+[^1]: 
+Como se verá, por su origen, la teología no es un discurso cristiano. Luego sí lo será. Algunos lectores podrán encontrar inapropiado, incluso ofensivo, el tratamiento de la palabra dios sin mayúscula inicial. El único propósito de este tratamiento durante esta primera sección es resaltar este origen que señalamos.
 
-[^2]: El texto dice:
+[^2]: 
+El texto dice:
 
 καὶ σὺ ἐν τῷ παρόντι, ἀλλʼ οἰκισταὶ πόλεως· οἰκισταῖς δὲ τοὺς μὲν τύπους προσήκει εἰδέναι ἐν οἷς δεῖ μυθολογεῖν τοὺς ποιητάς, παρʼ οὓς ἐὰν ποιῶσιν οὐκ ἐπιτρεπτέον, οὐ μὴν αὐτοῖς γε ποιητέον μύθους. ὀρθῶς, ἔφη· ἀλλʼ αὐτὸ δὴ τοῦτο, οἱ τύποι περὶ θεολογίας τίνες ἂν εἶεν; τοιοίδε πού τινες, ἦν δʼ ἐγώ· οἷος τυγχάνει ὁ θεὸς ὤν, ἀεὶ δήπου ἀποδοτέον, ἐάντέ τις αὐτὸν ἐν ἔπεσιν ποιῇ ἐάντε ἐν μέλεσιν ἐάντε ἐν τραγῳδίᾳ. δεῖ γάρ.
 
@@ -85,7 +87,8 @@ El texto original griego se puede seguir en línea: [Ver texto original](https:/
 
 La traducción la seguimos del tomo de Gredos correspondiente (BGG 94, p. 138), pero con una ligera diferencia para hacer más literal la indicación que se quiere señalar en esta nota.
 
-[^3]: El texto dice:
+[^3]: 
+El texto dice:
 
 διὰ γὰρ τὸ θαυμάζειν οἱ ἄνθρωποι καὶ νῦν καὶ τὸ πρῶτον ἤρξαντο φιλοσοφεῖν, ἐξ ἀρχῆς μὲν τὰ πρόχειρα τῶν ἀτόπων θαυμάσαντες, εἶτα κατὰ μικρὸν οὕτω προϊόντες καὶ περὶ τῶν μειζόνων διαπορήσαντες, οἷον περί τε τῶν τῆς σελήνης παθημάτων καὶ τῶν περὶ τὸν ἥλιον καὶ ἄστρα καὶ περὶ τῆς τοῦ παντὸς γενέσεως. ὁ δʼ ἀπορῶν καὶ θαυμάζων οἴεται ἀγνοεῖν (διὸ καὶ ὁ φιλόμυθος φιλόσοφός πώς ἐστιν· ὁ γὰρ μῦθος σύγκειται ἐκ θαυμασίων)· ὥστʼ εἴπερ διὰ τὸ φεύγειν τὴν ἄγνοιαν ἐφιλοσόφησαν, φανερὸν ὅτι διὰ τὸ εἰδέναι τὸ ἐπίστασθαι ἐδίωκον καὶ οὐ χρήσεώς τινος ἕνεκεν. μαρτυρεῖ δὲ αὐτὸ τὸ συμβεβηκός· σχεδὸν γὰρ πάντων ὑπαρχόντων τῶν ἀναγκαίων καὶ πρὸς ῥᾳστώνην καὶ διαγωγὴν ἡ τοιαύτη φρόνησις ἤρξατο ζητεῖσθαι. δῆλον οὖν ὡς διʼ οὐδεμίαν αὐτὴν ζητοῦμεν χρείαν ἑτέραν, ἀλλʼ ὥσπερ ἄνθρωπος, φαμέν, ἐλεύθερος ὁ αὑτοῦ ἕνεκα καὶ μὴ ἄλλου ὤν, οὕτω καὶ αὐτὴν ὡς μόνην οὖσαν ἐλευθέραν τῶν ἐπιστημῶν· μόνη γὰρ αὕτη αὑτῆς ἕνεκέν ἐστιν. διὸ καὶ δικαίως ἂν οὐκ ἀνθρωπίνη νομίζοιτο αὐτῆς ἡ κτῆσις· πολλαχῇ γὰρ ἡ φύσις δούλη τῶν ἀνθρώπων ἐστίν, ὥστε κατὰ Σιμωνίδην θεὸς ἂν μόνος τοῦτʼ ἔχοι γέρας, ἄνδρα δʼ οὐκ ἄξιον μὴ οὐ ζητεῖν τὴν καθʼ αὑτὸν ἐπιστήμην. εἰ δὴ λέγουσί τι οἱ ποιηταὶ καὶ πέφυκε φθονεῖν τὸ θεῖον,ἐπὶ τούτου συμβῆναι μάλιστα εἰκὸς καὶ δυστυχεῖς εἶναι πάντας τοὺς περιττούς. ἀλλʼ οὔτε τὸ θεῖον φθονερὸν ἐνδέχεται εἶναι, ἀλλὰ κατὰ τὴν παροιμίαν πολλὰ ψεύδονται ἀοιδοί, οὔτε τῆς τοιαύτης ἄλλην χρὴ νομίζειν τιμιωτέραν.  ἡ γὰρ θειοτάτη καὶ τιμιωτάτη· τοιαύτη δὲ διχῶς ἂν εἴη μόνη· ἥν τε γὰρ μάλιστʼ ἂν ὁ θεὸς ἔχοι, θεία τῶν ἐπιστημῶν ἐστί, κἂν εἴ τις τῶν θείων εἴη. μόνη δʼ αὕτη τούτων ἀμφοτέρων τετύχηκεν· ὅ τε γὰρ θεὸς δοκεῖ τῶν αἰτίων πᾶσιν εἶναι καὶ ἀρχή τις, καὶ τὴν τοιαύτην ἢ μόνος ἢ μάλιστʼ ἂν ἔχοι ὁ θεός. ἀναγκαιότεραι μὲν οὖν πᾶσαι ταύτης, ἀμείνων δʼ οὐδεμία. δεῖ μέντοι πως καταστῆναι τὴν κτῆσιν αὐτῆς εἰς τοὐναντίον ἡμῖν τῶν ἐξ ἀρχῆς ζητήσεων. ἄρχονται μὲν γάρ, ὥσπερ εἴπομεν, ἀπὸ τοῦ θαυμάζειν πάντες εἰ οὕτως ἔχει, καθάπερ περὶ τῶν θαυμάτων ταὐτόματα τοῖς μήπω τεθεωρηκόσι τὴν αἰτίαν ἢ περὶ τὰς τοῦ ἡλίου τροπὰς ἢ τὴν τῆς διαμέτρου ἀσυμμετρίαν (θαυμαστὸν γὰρ εἶναι δοκεῖ πᾶσι τοῖς μήπω τεθεωρηκόσι τὴν αἰτίαν εἴ τι τῷ ἐλαχίστῳ μὴ μετρεῖται)· δεῖ δὲ εἰς τοὐναντίον καὶ τὸ ἄμεινον κατὰ τὴν παροιμίαν ἀποτελευτῆσαι, καθάπερ καὶ ἐν τούτοις ὅταν μάθωσιν· οὐθὲν γὰρ ἂν οὕτως θαυμάσειεν ἀνὴρ γεωμετρικὸς ὡς εἰ γένοιτο ἡ διάμετρος μετρητή. τίς μὲν οὖν ἡ φύσις τῆς ἐπιστήμης τῆς ζητουμένης, εἴρηται, καὶ τίς ὁ σκοπὸς οὗ δεῖ τυγχάνειν τὴν ζήτησιν καὶ τὴν ὅλην μέθοδον.
 
@@ -111,7 +114,8 @@ La traducción la seguimos del tomo de Gredos correspondiente (BGG 584, pp. 76-7
 
 [^7]: C.G. Jung, “Acerca de la psicología de la religión occidental y de la religión oriental”, en: Obras Completas. 20Vols. (Madrid: Trotta, 2002), tomo XI; B. Malinowski, “El mito en la psicología primitiva”, en: Estudios de psicología primitiva (Barcelona: Altaya, 1994), 17-82; J. Schmitz, Filosofía de la religión (Barcelona: Herder, 1987).
 
-[^8]: Así, según conceptos como hierofanía y cosmización, de Mircea Eliade. Entre sus muchas obras, nombro como ejemplo de ellas las siguientes dos: Tratado de historia de las religiones. 2Vols. (Madrid: Cristiandad, 1974); Ídem, Historia de las creencias y las ideas religiosas. 4Vols. (Madrid: Cristiandad, 1980). En el blog se han publicado cuarto artículo donde se reseña una de sus obras principales: Lo sagrado y lo profano, Con los siguientes títulos:
+[^8]: 
+Así, según conceptos como hierofanía y cosmización, de Mircea Eliade. Entre sus muchas obras, nombro como ejemplo de ellas las siguientes dos: Tratado de historia de las religiones. 2Vols. (Madrid: Cristiandad, 1974); Ídem, Historia de las creencias y las ideas religiosas. 4Vols. (Madrid: Cristiandad, 1980). En el blog se han publicado cuarto artículo donde se reseña una de sus obras principales: Lo sagrado y lo profano, Con los siguientes títulos:
 
 “Lo sagrado y lo profano 1: una revisita a la concepción del espacio sagrado y profano”: [Leer](https://bitacorabiblica715145048.wordpress.com/wp-admin/post.php?post=1432&action=edit) 
 “Lo sagrado y lo profano 2: tiempo sagrado”: [Leer](https://bitacorabiblica715145048.wordpress.com/wp-admin/post.php?post=1443&action=edit)
@@ -132,7 +136,8 @@ Asimismo, en el blog he presentado una síntesis de su propuesta, en un artícul
 
 [^14]: Gustav Parthey, Plutarch. Über Isis und Osiris (Berlin: Nicolaische Buchhandlung, 1850), 188-120.
 
-[^15]: Una presentación de la religión como sistema semiótico, pero aplicado a la interpretación del cristianismo primitivo como religión, puede verse en: G. Theissen, La religión de los primeros cristianos (Salamanca: Sígueme, 2002), 13-35.
+[^15]: 
+Una presentación de la religión como sistema semiótico, pero aplicado a la interpretación del cristianismo primitivo como religión, puede verse en: G. Theissen, La religión de los primeros cristianos (Salamanca: Sígueme, 2002), 13-35.
 
 Por otro lado, el concepto de sistema semiótico, aplicado a la cultura, proviene de la obra del antropólogo cultural Clifford Geertz. En otro artículo publicado en este blog he desarrollado la relación entre esta interpretación de la cultura como sistema semiótico, y su interferencia con la religión. El título del artículo es: “Clifford Geertz y la danza de las abejas: sobre la trasposición entre las categorías de religión y cultura como mundos simbólicos”, y se puede leer en el siguiente enlace: [Leer](https://bitacorabiblica715145048.wordpress.com/wp-admin/post.php?post=603&action=edit)
 
