@@ -17,7 +17,7 @@ author_profile: true
     <span style="font-size:0.85rem;font-weight:bold;color:#1a1a1a;">53.33%</span>
   </div>
   <div style="background:#e5e5e0;border-radius:4px;height:10px;width:100%;">
-    <div style="background:#f5c842;width:46.67%;height:10px;border-radius:4px;"></div>
+    <div style="background:#f5c842;width:43.33%;height:10px;border-radius:4px;"></div>
   </div>
 </div>
 <div style="display:flex;align-items:center;gap:0.5rem;margin:1rem 0;font-size:0.9rem;color:#1a1a1a;">
