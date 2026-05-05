@@ -14,7 +14,7 @@ author_profile: true
 <div style="margin:1.5rem 0;">
   <div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;">
     <span style="font-size:0.85rem;color:#6b6b6b;">Progreso de lectura</span>
-    <span style="font-size:0.85rem;font-weight:bold;color:#1a1a1a;">46.67%</span>
+    <span style="font-size:0.85rem;font-weight:bold;color:#1a1a1a;">53.33%</span>
   </div>
   <div style="background:#e5e5e0;border-radius:4px;height:10px;width:100%;">
     <div style="background:#f5c842;width:46.67%;height:10px;border-radius:4px;"></div>
