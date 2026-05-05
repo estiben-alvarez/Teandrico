@@ -1,15 +1,13 @@
-{% assign noticias = site.categories["Noticias"] %}
-{% for post in noticias %}
+{% for post in site.posts %}
+  {% if post.categories contains 'Noticias' %}
 <div class="article-list-item" style="background:#fff;border:1px solid #e5e5e0;border-radius:8px;overflow:hidden;margin-bottom:1.5rem;display:flex;">
   {% if post.header.teaser %}
   <a href="{{ post.url }}" style="display:block;position:relative;width:300px;min-width:300px;overflow:hidden;flex-shrink:0;">
     <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;">
     <div style="position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,rgba(26,26,26,0.85),transparent);"></div>
-    {% if post.categories %}
     <div style="position:absolute;bottom:12px;left:12px;">
-      <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;padding:2px 8px;border-radius:3px;">{{ post.categories | first }}</span>
+      <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;padding:2px 8px;border-radius:3px;">Noticias</span>
     </div>
-    {% endif %}
   </a>
   {% endif %}
   <div style="padding:1.2rem;flex:1;">
@@ -21,4 +19,5 @@
     <a href="{{ post.url }}" style="display:inline-block;padding:0.4rem 1rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:0.78rem;letter-spacing:0.05em;text-transform:uppercase;">Leer más</a>
   </div>
 </div>
+  {% endif %}
 {% endfor %}
