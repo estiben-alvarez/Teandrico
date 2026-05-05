@@ -21,24 +21,27 @@ title: "Haciendo teología en el continente digital"
     {% assign todo = site.posts | concat: site.noticias | sort: 'date' | reverse %}
     {% for post in todo %}
     <div style="min-width:100%;box-sizing:border-box;padding:0 0.5rem;">
-      <div style="display:flex;gap:1.5rem;align-items:flex-start;background:#fff;border:1px solid #e5e5e0;padding:1.5rem;">
+      <div class="article-list-item" style="background:#fff;border:1px solid #e5e5e0;border-radius:8px;overflow:hidden;display:flex;">
         {% if post.header.teaser %}
-        <a href="{{ post.url }}" style="flex-shrink:0;">
-          <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:180px;height:130px;object-fit:cover;">
+        <a href="{{ post.url }}" style="display:block;position:relative;width:300px;min-width:300px;overflow:hidden;flex-shrink:0;">
+          <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;">
+          <div style="position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,rgba(26,26,26,0.85),transparent);"></div>
+          <div style="position:absolute;bottom:12px;left:12px;">
+            {% if post.categories %}
+            <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;padding:2px 8px;border-radius:3px;">{{ post.categories | first }}</span>
+            {% else %}
+            <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;padding:2px 8px;border-radius:3px;">Noticias</span>
+            {% endif %}
+          </div>
         </a>
         {% endif %}
-        <div>
-          {% if post.categories %}
-          <div style="font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;display:inline-block;padding:0.15rem 0.5rem;margin-bottom:0.6rem;">{{ post.categories | first }}</div>
-          {% else %}
-          <div style="font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;display:inline-block;padding:0.15rem 0.5rem;margin-bottom:0.6rem;">Noticias</div>
-          {% endif %}
-          <h3 style="font-family:Georgia,serif;font-size:1.2rem;font-weight:normal;margin:0 0 0.5rem 0;">
+        <div style="padding:1.2rem;flex:1;">
+          <h3 style="font-family:Georgia,serif;font-size:1.1rem;font-weight:normal;margin:0 0 0.4rem 0;line-height:1.4;">
             <a href="{{ post.url }}" style="color:#1a1a1a;text-decoration:none;">{{ post.title }}</a>
           </h3>
-          <p style="font-size:0.8rem;color:#aaa;margin:0 0 0.5rem 0;">{{ post.date | date: "%B %d, %Y" }}</p>
-          <p style="font-size:0.9rem;color:#444;margin:0;">{{ post.excerpt | strip_html | truncate: 200 }}</p>
-          <a href="{{ post.url }}" style="display:inline-block;margin-top:0.8rem;font-size:0.8rem;color:#1a1a1a;text-decoration:underline;">Leer más →</a>
+          <p style="font-size:0.78rem;color:#aaa;margin:0 0 0.6rem 0;">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p style="font-size:0.9rem;color:#444;margin:0 0 1rem 0;line-height:1.6;">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+          <a href="{{ post.url }}" style="display:inline-block;padding:0.4rem 1rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:0.78rem;letter-spacing:0.05em;text-transform:uppercase;">Leer más</a>
         </div>
       </div>
     </div>
