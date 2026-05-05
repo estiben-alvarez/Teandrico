@@ -1,4 +1,4 @@
-{% assign noticias = site.posts | where_exp: "post", "post.categories contains 'Noticias'" | sort: 'date' | reverse %}
+{% assign noticias = site.categories.Noticias %}
 {% for post in noticias %}
 <div class="article-list-item" style="background:#fff;border:1px solid #e5e5e0;border-radius:8px;overflow:hidden;margin-bottom:1.5rem;display:flex;">
   {% if post.header.teaser %}
