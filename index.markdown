@@ -47,8 +47,8 @@ title: "Haciendo teología en el continente digital"
     </div>
     {% endfor %}
   </div>
-  <button onclick="moverCarrusel(-1)" style="position:absolute;left:0;top:50%;transform:translateY(-50%);background:#f5c842;border:none;padding:0.5rem 1rem;cursor:pointer;font-size:1.2rem;z-index:10;color:#1a1a1a!important;">‹</button>
-  <button onclick="moverCarrusel(1)" style="position:absolute;right:0;top:50%;transform:translateY(-50%);background:#f5c842;border:none;padding:0.5rem 1rem;cursor:pointer;font-size:1.2rem;z-index:10;color:#1a1a1a!important;">›</button>
+  <button onclick="moverCarrusel(-1)" style="position:absolute;left:0;top:200px;transform:none;background:#f5c842;border:none;padding:0.5rem 1rem;cursor:pointer;font-size:1.2rem;z-index:10;color:#1a1a1a!important;">‹</button>
+<button onclick="moverCarrusel(1)" style="position:absolute;right:0;top:200px;transform:none;background:#f5c842;border:none;padding:0.5rem 1rem;cursor:pointer;font-size:1.2rem;z-index:10;color:#1a1a1a!important;">›</button>
 </div>
 
 <script>
