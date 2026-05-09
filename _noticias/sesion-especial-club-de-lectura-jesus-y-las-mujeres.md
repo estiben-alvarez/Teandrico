@@ -58,4 +58,4 @@ Se profundizó en la figura de María Magdalena, presentada como “de Jesús”
 
 Para cerrar el encuentro, se plantearon tres preguntas de reflexión: ¿qué aspectos de la condición de la mujer judía resultan más impactantes?, ¿cuál de los gestos de Jesús se considera más revolucionario? y ¿cómo ha incorporado u olvidado el cristianismo actual esta visión de Jesús? Estas preguntas invitaron al diálogo sobre la vigencia del mensaje de Jesús en la Iglesia y la sociedad contemporánea.
 
-El Club de Lectura Teándrico extiende la invitación para todas las personas que se interesan por lecturas relacionadas con la fe, el cristianismo, la teología, la religión, la espiritualidad y demás, para que se unan al espacio a través de [www.teandrico.com/club-de-lectura] (https://teandrico.com/club-de-lectura/). 
+El Club de Lectura Teándrico extiende la invitación para todas las personas que se interesan por lecturas relacionadas con la fe, el cristianismo, la teología, la religión, la espiritualidad y demás, para que se unan al espacio a través de [www.teandrico.com/club-de-lectura](https://teandrico.com/club-de-lectura/). 
