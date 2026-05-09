@@ -1,5 +1,5 @@
 ---
-title: "Hablando sobre la relación de Jesús con las mujeres: así se vivió la sesión especial del Club de Lectura Teándrico"
+title: "Hablando sobre la relación de Jesús con las mujeres: así se vivió la primera sesión especial del Club de Lectura Teándrico"
 date: 2026-05-06
 date_string: "6 de mayo de 2026"
 categories: [Noticias]
