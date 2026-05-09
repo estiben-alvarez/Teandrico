@@ -19,7 +19,7 @@ header:
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
 
-El pasado 5 de mayo de 2026 se llevó a cabo la sesión especial del Club de Lectura Teándrico, donde se trató el capítulo 8 del libro Jesús: aproximación histórica de José Antonio Pagola, el cual está titulado “Amigo de la mujer”. En este encuentro virtual, los miembros del club de lectura, bajo la moderación de Estiben Álvarez, estudiante de Teología en la Universidad Católica de Oriente, intercambiaron ideas acerca de la relación revolucionaria que desarrolló Jesús con las mujeres en la Palestina del siglo I. 
+El pasado 5 de mayo de 2026 se llevó a cabo la primera sesión especial del Club de Lectura Teándrico, donde se trató el capítulo 8 del libro Jesús: aproximación histórica de José Antonio Pagola, el cual está titulado “Amigo de la mujer”. En este encuentro virtual, los miembros del club de lectura, bajo la moderación de Estiben Álvarez, estudiante de Teología en la Universidad Católica de Oriente, intercambiaron ideas acerca de la relación revolucionaria que desarrolló Jesús con las mujeres en la Palestina del siglo I. 
 
 ![Sesión especial del Club de Lectura Teándrico](/imagenes/sesion-especial-club-lectura-1.JPG)
 
