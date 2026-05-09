@@ -10,11 +10,11 @@ layout: single
 author_profile: false
 share: true
 header:
-  teaser: /imagenes/jesus-samaritana.jpg
-  og_image: /imagenes/jesus-samaritana.jpg
+  teaser: /imagenes/jesus-samaritana2.jpg
+  og_image: /imagenes/jesus-samaritana2.jpg
 ---
 
-![Jesús y la samaritana](/imagenes/jesus-samaritana.jpg)
+![Jesús y la samaritana](/imagenes/jesus-samaritana2.jpg)
 *Pintura de Jesús y la mujer samaritana, obra de Sieger Köder vía Pinterest*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
