@@ -22,9 +22,9 @@ author_profile: true
 </div>
 <div style="display:flex;align-items:center;gap:0.5rem;margin:1rem 0;font-size:0.9rem;color:#1a1a1a;">
   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e67e22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"></circle>
-    <line x1="12" y1="8" x2="12" y2="12"></line>
-    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+    <path d="M12 2L2 20h20L12 2z"></path>
+    <line x1="12" y1="9" x2="12" y2="13"></line>
+    <line x1="12" y1="17" x2="12.01" y2="17"></line>
   </svg>
   <span><strong>⚠️ Pausa temporal:</strong> El club de lectura retomará sus sesiones en junio. ¡Gracias por su comprensión!</span>
 </div>
