@@ -15,7 +15,7 @@ header:
 ---
 
 ![Papa León XIV y Christopher Olah de Anthropic](/imagenes/papa-leon-xiv-chris-olah-anthropic.jpg)
-*Creada con la inteligencia artificial de Google Gemini para fines ilustrativos, combinando representaciones del Papa, Christopher Olah y el logotipo de Anthropic.*
+*Imagen creada con la inteligencia artificial de Google Gemini para fines ilustrativos, combinando representaciones del Papa, Christopher Olah y el logotipo de Anthropic.*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
 
