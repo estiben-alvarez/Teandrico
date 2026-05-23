@@ -15,7 +15,6 @@ header:
 
 image: /imagenes/foto-articulo-teologia2.jpg
 ---
-{% include contador-lecturas.html %}
 ![All Saints](/imagenes/foto-articulo-teologia2.jpg)
 *"All Saints" (Todos los Santos) — Elizabeth Wang.*
 
