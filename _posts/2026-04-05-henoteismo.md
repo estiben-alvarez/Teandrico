@@ -12,7 +12,6 @@ share: true
 header:
   teaser: /imagenes/foto-articulo-henoteismo-2.jpg
 ---
-{% include contador-lecturas.html %}
 ![Henoteísmo](/imagenes/foto-articulo-henoteismo-2.jpg)
 *© The Trustees of the British Museum. Shared under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) licence.*
 
