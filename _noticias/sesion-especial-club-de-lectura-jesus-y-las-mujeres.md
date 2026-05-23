@@ -13,7 +13,7 @@ header:
   teaser: /imagenes/jesus-samaritana2.jpg
   og_image: /imagenes/jesus-samaritana2.jpg
 ---
-
+{% include contador-lecturas.html %}
 ![Jesús y la samaritana](/imagenes/jesus-samaritana2.jpg)
 *Pintura de Jesús y la mujer samaritana, obra de Sieger Köder vía Pinterest*
 
