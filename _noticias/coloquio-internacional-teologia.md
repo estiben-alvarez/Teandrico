@@ -14,6 +14,7 @@ header:
   teaser: /imagenes/foto-coloquio-socializacion.jpg
   og_image: /imagenes/foto-coloquio-socializacion.jpg
 ---
+{% include contador-lecturas.html %}
 ![Coloquio Internacional de Teología](/imagenes/foto-coloquio-socializacion.jpg)
 *Socialización del Coloquio Internacional de Teología 2026 en la Universidad Pontificia Bolivariana | Fotografía de @soycatolicadelnorte vía Instagram*
 
