@@ -12,7 +12,7 @@ share: true
 header:
   teaser: /imagenes/foto-articulo-mitologia-israel.jpg
 ---
-
+{% include contador-lecturas.html %}
 ![El ejército de los gigantes](/imagenes/foto-articulo-mitologia-israel.jpg)
 *El ejército de los gigantes, derrotado por el ejército del rey David. Miniatura del «Codex de l'Octateuque du Serail» (siglo XII), autor desconocido. Topkapi Sarayi Muzesi Kutuphanesi (Biblioteca), Estambul, Turquía. © Bridgeman Images.*
 
