@@ -13,7 +13,7 @@ header:
   teaser: /imagenes/PhD-Gloria-Liliana-Franco.jpg
   og_image: /imagenes/PhD-Gloria-Liliana-Franco.jpg
 ---
-
+{% include contador-lecturas.html %}
 ![PhD. Gloria Liliana Franco](/imagenes/PhD-Gloria-Liliana-Franco.jpg)
 *PhD. Gloria Liliana Franco en las XI Jornadas de Reflexión Teológica en 2025 | Fotografía de Universidad Católica Luis Amigó vía [funlam.edu.co](https://funlam.edu.co/)*
 
