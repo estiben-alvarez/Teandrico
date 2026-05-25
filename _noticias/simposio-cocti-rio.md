@@ -34,4 +34,4 @@ El simposio combinará sesiones plenarias, paneles temáticos e intercambios aca
 - Compartir experiencias institucionales.
 - Reflexionar sobre el futuro de la educación teológica en un mundo transformado por la tecnología.
 
-Más información en el sitio web de World of [Catholic Universities.](https://wcu.academy/es/agenda/25-28-de-mayo-de-2026-proxima-asamblea-general-y-simposio-del-cocti-43)
+Más información en el sitio web de [World of Catholic Universities.](https://wcu.academy/es/agenda/25-28-de-mayo-de-2026-proxima-asamblea-general-y-simposio-del-cocti-43)
