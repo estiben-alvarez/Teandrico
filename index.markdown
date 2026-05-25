@@ -23,7 +23,7 @@ title: "Haciendo teología en el continente digital"
     <div style="min-width:100%;box-sizing:border-box;padding:0 0.5rem;">
       <div class="article-list-item" style="background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden;">
         {% if post.header.teaser %}
-        <a href="{{ post.url }}" style="display:block;position:relative;height:260px;overflow:hidden;">
+        <a href="{{ post.url }}" style="display:block;position:relative;height:300px;overflow:hidden;">
           <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;">
           <div style="position:absolute;bottom:0;left:0;right:0;padding:1rem;background:linear-gradient(to top,rgba(26,26,26,0.92),transparent);">
             {% if post.categories %}
