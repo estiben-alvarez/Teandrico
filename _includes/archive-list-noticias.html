@@ -1,6 +1,6 @@
 {% assign noticias_sorted = site.noticias | sort: 'date' | reverse %}
 {% for post in noticias_sorted %}
-<div class="article-list-item" style="background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary);border-radius:12px;overflow:hidden;display:flex;height:180px;margin-bottom:1.5rem;">
+<div class="article-list-item" style="background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary);border-radius:12px;overflow:hidden;display:flex;height:200px;margin-bottom:1.5rem;">
   {% if post.header.teaser %}
   <a href="{{ post.url }}" style="display:block;position:relative;width:280px;min-width:280px;flex-shrink:0;overflow:hidden;">
     <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;">
