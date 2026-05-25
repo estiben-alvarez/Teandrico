@@ -87,7 +87,7 @@ title: "Haciendo teología en el continente digital"
         <span style="font-size:0.78rem;color:#6b6b6b;">Octubre 21 y 22 de 2026</span>
       </div>
       <h3 style="font-family:Georgia,serif;font-weight:normal;margin:0 0 0.3rem 0;font-size:1rem;">Coloquio Internacional de Teología (TeoRed)</h3>
-      <p style="font-size:0.82rem;color:#6b6b6b;margin:0 0 0.8rem 0;">Virtual y presencial · Fundación Universitaria Católica del Norte</p>
+      <p style="font-size:0.82rem;color:#6b6b6b;margin:0 0 0.8rem 0;">Presencial · Fundación Universitaria Católica del Norte</p>
       <a href="/noticias/coloquio-internacional-teologia/" style="display:inline-block;padding:0.4rem 1rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:0.78rem;border-radius:4px;">Más información</a>
     </div>
     
