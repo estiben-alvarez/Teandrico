@@ -1,22 +1,18 @@
 {% assign noticias_sorted = site.noticias | sort: 'date' | reverse %}
 {% for post in noticias_sorted %}
-<div class="article-list-item" style="background:var(--color-background-primary,#fff);border:0.5px solid var(--color-border-tertiary);border-radius:12px;overflow:hidden;display:flex;height:200px;margin-bottom:1.5rem;">
+<div class="article-list-item" style="display:flex;gap:1.5rem;align-items:flex-start;margin-bottom:2rem;padding:1.5rem;background:#ffffff;border:1px solid #e5e5e0;transition:box-shadow 0.2s;">
   {% if post.header.teaser %}
-  <a href="{{ post.url }}" style="display:block;position:relative;width:280px;min-width:280px;flex-shrink:0;overflow:hidden;">
-    <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;">
-    <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to top,rgba(26,26,26,0.7),transparent);"></div>
-    <div style="position:absolute;bottom:10px;left:12px;">
-      <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;padding:2px 8px;border-radius:3px;">Noticias</span>
-    </div>
+  <a href="{{ post.url }}" style="flex-shrink:0;">
+    <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:200px;height:140px;object-fit:cover;display:block;">
   </a>
   {% endif %}
-  <div style="padding:1.2rem 1.5rem;flex:1;display:flex;flex-direction:column;justify-content:center;border-left:3px solid #f5c842;">
-    <p style="font-family:Georgia,serif;font-size:1rem;font-weight:normal;margin:0 0 0.4rem;line-height:1.4;color:var(--color-text-primary);">
-      <a href="{{ post.url }}" style="color:var(--color-text-primary);text-decoration:none;">{{ post.title }}</a>
-    </p>
-    <p style="font-size:12px;color:var(--color-text-secondary);margin:0 0 0.5rem;">{{ post.date | date: "%B %d, %Y" }}</p>
-    <p style="font-size:13px;color:var(--color-text-secondary);margin:0 0 0.8rem;line-height:1.5;">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-    <a href="{{ post.url }}" style="display:inline-block;padding:0.3rem 0.8rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;border-radius:3px;width:fit-content;">Leer más</a>
+  <div style="flex:1;">
+    <h2 style="font-family:Georgia,serif;font-size:1.2rem;font-weight:normal;margin:0 0 0.4rem 0;line-height:1.4;">
+      <a href="{{ post.url }}" style="color:#1a1a1a;text-decoration:none;">{{ post.title }}</a>
+    </h2>
+    <p style="font-size:0.78rem;color:#aaa;margin:0 0 0.6rem 0;">{{ post.date | date: "%B %d, %Y" }}</p>
+    <p style="font-size:0.92rem;color:#444;margin:0 0 1rem 0;line-height:1.6;">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+    <a href="{{ post.url }}" style="display:inline-block;padding:0.4rem 1rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:0.78rem;letter-spacing:0.05em;text-transform:uppercase;">Leer más</a>
   </div>
 </div>
 {% endfor %}
