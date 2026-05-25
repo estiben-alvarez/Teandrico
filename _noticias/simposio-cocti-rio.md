@@ -10,11 +10,11 @@ layout: single
 author_profile: false
 share: true
 header:
-  teaser: /imagenes/puc-rio2.png
-  og_image: /imagenes/puc-rio2.png
+  teaser: /imagenes/puc-rio2.jpg
+  og_image: /imagenes/puc-rio2.jpg
 ---
 
-![PUC-Rio](/imagenes/puc-rio2.png)
+![PUC-Rio](/imagenes/puc-rio2.jpg)
 *Fuente: PUC-Rio / Divulgación institucional*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
