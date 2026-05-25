@@ -76,7 +76,7 @@ title: "Haciendo teología en el continente digital"
         <span style="font-size:0.78rem;color:#6b6b6b;">Mayo 25 al 28 de 2026</span>
       </div>
       <h3 style="font-family:Georgia,serif;font-weight:normal;margin:0 0 0.3rem 0;font-size:1rem;">Asamblea General y Simposio de la Conferencia de Instituciones Católicas de Teología (COCTI)</h3>
-      <p style="font-size:0.82rem;color:#6b6b6b;margin:0 0 0.8rem 0;">Virtual y presencial · Pontificia Universidad Católica de Río de Janeiro</p>
+      <p style="font-size:0.82rem;color:#6b6b6b;margin:0 0 0.8rem 0;">Presencial · Pontificia Universidad Católica de Río de Janeiro</p>
       <a href="https://teandrico.com/noticias/simposio-cocti-rio/" target="_blank" style="display:inline-block;padding:0.4rem 1rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:0.78rem;border-radius:4px;">Más información</a>
     </div>
 
@@ -87,7 +87,7 @@ title: "Haciendo teología en el continente digital"
         <span style="font-size:0.78rem;color:#6b6b6b;">Octubre 21 y 22 de 2026</span>
       </div>
       <h3 style="font-family:Georgia,serif;font-weight:normal;margin:0 0 0.3rem 0;font-size:1rem;">Coloquio Internacional de Teología (TeoRed)</h3>
-      <p style="font-size:0.82rem;color:#6b6b6b;margin:0 0 0.8rem 0;">Presencial · Fundación Universitaria Católica del Norte</p>
+      <p style="font-size:0.82rem;color:#6b6b6b;margin:0 0 0.8rem 0;">Presencial y virtual · Fundación Universitaria Católica del Norte</p>
       <a href="/noticias/coloquio-internacional-teologia/" style="display:inline-block;padding:0.4rem 1rem;background:#1a1a1a;color:#fff!important;text-decoration:none;font-size:0.78rem;border-radius:4px;">Más información</a>
     </div>
     
