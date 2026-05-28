@@ -13,6 +13,7 @@ header:
   teaser: /leon-xiv-magnifica-humanitas-crhis-olah.jpg
   og_image: /leon-xiv-magnifica-humanitas-crhis-olah.jpg
 ---
+
 ![El Papa León XIV y Chris Olah](/leon-xiv-magnifica-humanitas-crhis-olah.jpg)
 *León XIV saluda al cofundador de Anthropic, Christopher Olah, durante la presentación de "Magnifica humanitas" (REUTERS/Yara Nardi)*
 
