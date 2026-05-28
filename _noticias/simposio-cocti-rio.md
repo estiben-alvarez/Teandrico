@@ -5,7 +5,7 @@ date_string: "22 de mayo de 2026"
 categories: [Noticias]
 tags: [COCTI, inteligencia artificial, teología, PUC-Rio, simposio, sabiduría bíblica]
 author: "Estiben Álvarez"
-excerpt: "Del 25 al 28 de mayo de 2026, la Pontificia Universidad Católica de Río de Janeiro será sede de la Asamblea General y Simposio del COCTI bajo el lema 'Inteligencia artificial e inteligencia humana a la luz de la sabiduría bíblica'."
+excerpt: "Del 25 al 28 de mayo de 2026 se realizará el Simposio del COCTI bajo el lema: Inteligencia artificial e inteligencia humana a la luz de la sabiduría bíblica."
 layout: single
 author_profile: false
 share: true
