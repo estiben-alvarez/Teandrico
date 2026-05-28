@@ -21,21 +21,13 @@ title: "Haciendo teología en el continente digital"
     {% assign todo = site.posts | concat: site.noticias | sort: 'date' | reverse %}
     {% for post in todo %}
     <div style="min-width:100%;box-sizing:border-box;padding:0 0.5rem;">
-      <div class="article-list-item" style="background:#fff;border:1px solid #e5e5e0;border-radius:8px;overflow:hidden;display:flex;">
+      <div class="article-list-item" style="display:flex;gap:1.5rem;align-items:flex-start;padding:1.5rem;background:#ffffff;border:1px solid #e5e5e0;border-radius:8px;">
         {% if post.header.teaser %}
-        <a href="{{ post.url }}" style="display:block;position:relative;width:300px;min-width:300px;overflow:hidden;flex-shrink:0;">
-          <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;">
-          <div style="position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,rgba(26,26,26,0.85),transparent);"></div>
-          <div style="position:absolute;bottom:12px;left:12px;">
-            {% if post.categories %}
-            <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;padding:2px 8px;border-radius:3px;">{{ post.categories | first }}</span>
-            {% else %}
-            <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:#f5c842;color:#1a1a1a;padding:2px 8px;border-radius:3px;">Noticias</span>
-            {% endif %}
-          </div>
+        <a href="{{ post.url }}" style="flex-shrink:0;">
+          <img src="{{ post.header.teaser }}" alt="{{ post.title }}" style="width:200px;height:140px;object-fit:cover;display:block;">
         </a>
         {% endif %}
-        <div style="padding:1.2rem;flex:1;">
+        <div style="flex:1;">
           <h3 style="font-family:Georgia,serif;font-size:1.1rem;font-weight:normal;margin:0 0 0.4rem 0;line-height:1.4;">
             <a href="{{ post.url }}" style="color:#1a1a1a;text-decoration:none;">{{ post.title }}</a>
           </h3>
