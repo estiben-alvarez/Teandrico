@@ -5,7 +5,7 @@ date_string: "6 de mayo de 2026"
 categories: [Noticias]
 tags: [Club de Lectura, Jesús y las mujeres, José Antonio Pagola, conversatorio]
 author: "Estiben Álvarez"
-excerpt: "El pasado martes 5 de mayo de 2026 se llevó a cabo la primera sesión especial del Club de Lectura Teándrico, donde se trató la relación revolucionaria de Jesús con las mujeres en la Palestina del Siglo I."
+excerpt: "El 5 de mayo de 2026 se realizó la primera sesión especial del Club de Lectura Teándrico, donde hablamos de Jesús y las mujeres en la Palestina del Siglo I."
 layout: single
 author_profile: false
 share: true
