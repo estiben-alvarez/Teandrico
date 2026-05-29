@@ -13,8 +13,6 @@ main:
 recientes:
   - title: "Artículos recientes"
     children:
-      - title: "El reino de Dios existe en algún lugar"
-        url: /articulos/reino-de-dios-geopolitica/
       - title: "¿Qué es la teología?"
         url: /articulos/que-es-la-teologia/
       - title: "Ángeles, mujeres y gigantes"
