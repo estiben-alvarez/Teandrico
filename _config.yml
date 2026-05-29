@@ -55,6 +55,8 @@ defaults:
       share: true
       show_tags: true
       teaser: /imagenes/artículo-henoteismo.jpg
+      sidebar:
+        nav: "recientes"
   - scope:
       path: ""
       type: noticias
@@ -64,6 +66,8 @@ defaults:
       share: true
       show_tags: true
       teaser: /imagenes/coloquio-internacional.jpeg
+      sidebar:
+        nav: "recientes"
 
 favicon: /favicon-teandrico.png
 
