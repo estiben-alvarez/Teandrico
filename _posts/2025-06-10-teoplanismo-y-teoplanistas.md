@@ -16,11 +16,11 @@ header:
 
 ![Abel de Jesús](/imagenes/fray-abel-de-jesus.jpg)
 
+*Artículo publicado originalmente en [eldebate.com](https://www.eldebate.com/religion/20250610/teoplanismo-teoplanistas_305528.html) y republicado con autorización del autor.*
+
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:0.5rem;">Por <strong>Abel de Jesús</strong></p>
 <p style="font-size:0.82rem;color:#6b6b6b;margin-bottom:0.5rem;">Teólogo, misionero digital, escritor y divulgador de temas religiosos y culturales.</p>
 <p style="font-size:0.82rem;color:#6b6b6b;margin-bottom:2rem;"><a href="https://www.youtube.com/channel/UCjop01hs6lSiPh37Qr3ekFw">Canal de YouTube</a> · <a href="https://www.instagram.com/abeldejesusyt?igsh=NmdubzFnM2Fnbnlv">Instagram</a></p>
-
-*Artículo publicado originalmente en [eldebate.com](https://www.eldebate.com/religion/20250610/teoplanismo-teoplanistas_305528.html) y republicado con autorización del autor.*
 
 Hay un género de cristianos que habita especialmente en internet, aunque puede encontrarse fuera del continente digital muy de vez en cuando. No son muchos, pero ya se encargan bien de proyectar su existencia y amplificar su voz. Son personas, por lo general, de gran valía y de buen corazón. Puedo contar entre mis amigos a algunos de ellos. Me refiero a los teoplanistas.
 
