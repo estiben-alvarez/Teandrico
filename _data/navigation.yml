@@ -9,24 +9,5 @@ main:
     url: /sobre-el-proyecto/
   - title: "Contacto"
     url: /contacto/
-
-recientes:
-  - title: "Noticias recientes"
-    children:
-      - title: "León XIV presenta Magnifica humanitas"
-        url: /noticias/magnifica-humanitas/
-      - title: "IA y sabiduría bíblica: simposio en Río de Janeiro"
-        url: /noticias/simposio-cocti-rio/
-      - title: "Se vienen las XII Jornadas de Reflexión Teológica"
-        url: /noticias/jornadas-reflexion-teologica/
-      - title: "Ya están abiertas las inscripciones para el Coloquio"
-        url: /noticias/coloquio-internacional-teologia/
-  - title: "Artículos recientes"
-    children:
-      - title: "¿Qué es la teología?"
-        url: /articulos/que-es-la-teologia/
-      - title: "Ángeles, mujeres y gigantes"
-        url: /articulos/angeles-mujeres-gigantes/
-      - title: "Henoteísmo: pensamientos acerca del Israel premonoteísta"
-        url: /articulos/henoteismo/
+    
 
