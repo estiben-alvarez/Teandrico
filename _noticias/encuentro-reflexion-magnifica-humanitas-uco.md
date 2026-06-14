@@ -10,11 +10,11 @@ layout: single
 author_profile: false
 share: true
 header:
-  teaser: /imagenes/magnifica-humanitas-catedra-uco.jpeg
-  og_image: /imagenes/magnifica-humanitas-catedra-uco.jpeg
+  teaser: /imagenes/magnifica-humanitas-catedra-uco-2.jpeg
+  og_image: /imagenes/magnifica-humanitas-catedra-uco-2.jpeg
 ---
 
-![Cátedra Madre de la Sabiduría - UCO](/imagenes/magnifica-humanitas-catedra-uco.jpeg)
+![Cátedra Madre de la Sabiduría - UCO](/imagenes/magnifica-humanitas-catedra-uco-2.jpeg)
 *Imagen de la UCO vía WhatsApp*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
