@@ -10,11 +10,11 @@ layout: single
 author_profile: false
 share: true
 header:
-  teaser: /imagenes/Alexander-Jaimes-Medina.JPEG
-  og_image: /imagenes/Alexander-Jaimes-Medina.JPEG
+  teaser: /imagenes/Alexander-Jaimes-Medina.JPG
+  og_image: /imagenes/Alexander-Jaimes-Medina.JPG
 ---
 
-![Alexander Jaimes Medina](/imagenes/Alexander-Jaimes-Medina.JPEG)
+![Alexander Jaimes Medina](/imagenes/Alexander-Jaimes-Medina.JPG)
 *Alexander Jaimes Medina | Créditos: Dirección de Asuntos Religiosos*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:2rem;">Por <strong>Estiben Álvarez</strong></p>
