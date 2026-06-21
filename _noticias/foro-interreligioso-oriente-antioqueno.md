@@ -21,6 +21,8 @@ header:
 
 Bajo el título *"¿Hacia una humanidad sin fe?: retos espirituales de la sociedad contemporánea"*, se celebrará la quinta edición del Foro Interreligioso del Oriente Antioqueño. La cita es para el jueves 2 de julio de 2026 a las 9:00 a.m. en el Teatro Valerio Antonio Jiménez, ubicado en la Calle 30 No. 25-102 de Marinilla.
 
+![V Foro Interreligioso del Oriente Antioqueño](/imagenes/flyer-v-foro-interreligioso.jpeg)
+
 El evento reunirá a diversas voces del ámbito religioso y social para debatir sobre el papel de la fe y la espiritualidad en un mundo cada vez más secularizado. El foro busca ser un espacio de diálogo y reflexión sobre los desafíos que enfrentan las creencias en la actualidad y su influencia en la construcción de una sociedad más justa y tolerante.
 
 El V Foro Interreligioso es posible gracias a la invitación y colaboración de diversas entidades comprometidas con el desarrollo social de la región. Entre los organizadores se encuentran la Alcaldía de La Ceja del Tambo, La Ceja Cuida y Florece (guía turística y comercial oficial del municipio), el Comité Interreligioso de La Ceja del Tambo y la Alcaldía de Marinilla.
