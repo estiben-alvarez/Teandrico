@@ -22,12 +22,12 @@ El pasado sábado 27 de junio de 2026, la Secretaría de Desarrollo Social y Fam
 
 Este reconocimiento coloca a Teándrico en un selecto grupo de clubes juveniles que abarcan temáticas tan variadas como el deporte, el medio ambiente, el arte, la cultura, la ciencia, la tecnología y la innovación. La propuesta de Teándrico fue valorada por su enfoque único, que propone espacios de lectura y diálogo en torno a la teología, la religión y la espiritualidad. Lo que distingue al club es su aproximación centrada en un análisis académico, filosófico y científico, ofreciendo un punto de encuentro para la reflexión profunda y estructurada.
 
-![Ganadores convocatoria Clubes Juveniles 2026](/imagenes/clubes-juveniles2.jpeg)
+![Ganadores convocatoria Clubes Juveniles 2026](/imagenes/clubes-juveniles2.jpg)
 *Foto por Dary Cadavid Córdoba | Alcaldía de Guarne*
 
 El estímulo otorgado por la Alcaldía no solo representa un respaldo económico, sino también un reconocimiento al valor de iniciativas que fomentan el pensamiento crítico y el diálogo constructivo entre los jóvenes del municipio. Este apoyo permitirá al club fortalecer sus actividades y ampliar su alcance.
 
-![Estiben Álvarez del Club de Lectura Teándrico](/imagenes/clubes-juveniles3.jpeg)
+![Estiben Álvarez del Club de Lectura Teándrico](/imagenes/clubes-juveniles3.jpg)
 *Estiben Álvarez, moderador del Club de Lectura Teándrico | Foto por Dary Cadavid Córdoba*
 
 Estiben Álvarez, moderador del Club de Lectura Teándrico, expresó su entusiasmo por este logro y anunció que en los próximos días se estará realizando una convocatoria abierta para todos los jóvenes interesados en el objeto del proyecto. Esta es una oportunidad única para quienes deseen participar en un espacio de discusión intelectual y académica.
