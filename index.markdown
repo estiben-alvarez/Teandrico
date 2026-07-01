@@ -3,7 +3,7 @@ layout: archive
 author_profile: true
 classes: wide
 header:
-  overlay_image: /imagenes/imagen-principal.jpg
+  overlay_image: /imagenes/clubes-juveniles.jpg
   overlay_filter: 0.6
   actions:
     - label: "Explorar artículos"
