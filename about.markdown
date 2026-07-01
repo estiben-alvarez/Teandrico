@@ -7,7 +7,7 @@ author_profile: true
 
 > "Credo ut intelligam — creo para entender. Intelligam ut credam — entiendo para creer." — San Anselmo de Canterbury
 
-*Teándrico es un proyecto de divulgación y diálogo sobre teología, religión, espiritualidad y fe, desde una aproximación académica y científica. Fue fundado en enero de 2026 en Guarne, Antioquia, por Estiben Álvarez, teólogo en formación de la Universidad Católica de Oriente.
+Teándrico es un proyecto de divulgación y diálogo sobre teología, religión, espiritualidad y fe, desde una aproximación académica y científica. Fue fundado en enero de 2026 en Guarne, Antioquia, por Estiben Álvarez, teólogo en formación de la Universidad Católica de Oriente.
 
 Desarrolla actividades de lectura compartida en formatos virtuales y presenciales a través de su principal apéndice: el Club de Lectura Teándrico. Además, realiza publicaciones periódicas de artículos de investigación, artículos de opinión y noticias relacionadas con su objeto de estudio.
 
