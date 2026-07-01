@@ -22,7 +22,7 @@ author_profile: true
 </div>
 <div style="display:flex;align-items:center;gap:0.5rem;margin:1rem 0;font-size:0.9rem;color:#1a1a1a;">
   <span style="font-size:1.1rem;">⚠️</span>
-  <span><strong>Pausa temporal:</strong> El club de lectura retomará sus sesiones en junio. ¡Gracias por su comprensión!</span>
+  <span><strong>Pausa temporal:</strong> El club de lectura retomará sus sesiones en julio. ¡Gracias por su comprensión!</span>
 </div>
   <div style="margin-top:1.5rem;">
 <a href="https://chat.whatsapp.com/JzV3pXCWawdCIChshMF4Bv" target="_blank" style="display:inline-block;padding:0.75rem 1.6rem;background:#25D366;color:#ffffff!important;text-decoration:none;font-weight:bold;margin-right:1rem;margin-bottom:1rem;border-radius:4px;">WhatsApp</a>
