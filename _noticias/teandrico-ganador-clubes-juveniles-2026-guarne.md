@@ -27,7 +27,7 @@ Este reconocimiento coloca a Teándrico en un selecto grupo de clubes juveniles 
 
 El estímulo otorgado por la Alcaldía no solo representa un respaldo económico, sino también un reconocimiento al valor de iniciativas que fomentan el pensamiento crítico y el diálogo constructivo entre los jóvenes del municipio. Este apoyo permitirá al club fortalecer sus actividades y ampliar su alcance.
 
-![Estiben Álvarez del Club de Lectura Teándrico](/imagenes/clubes-juveniles3.jpg)
+![Estiben Álvarez del Club de Lectura Teándrico](/imagenes/clubes-juveniles3.jpeg)
 *Estiben Álvarez, moderador del Club de Lectura Teándrico | Foto por Dary Cadavid Córdoba*
 
 Estiben Álvarez, moderador del Club de Lectura Teándrico, expresó su entusiasmo por este logro y anunció que en los próximos días se estará realizando una convocatoria abierta para todos los jóvenes interesados en el objeto del proyecto. Esta es una oportunidad única para quienes deseen participar en un espacio de discusión intelectual y académica.
