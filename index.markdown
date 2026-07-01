@@ -6,8 +6,8 @@ header:
   overlay_image: /imagenes/clubes-juveniles.jpg
   overlay_filter: 0.6
   actions:
-    - label: "Explorar artículos"
-      url: /articulos/
+    - label: "Unirme al Club de Lectura"
+      url: /club-de-lectura/
     - label: "Sobre el Proyecto"
       url: /sobre-el-proyecto/
 excerpt: "Un espacio dedicado a la divulgación teológica a partir de la reflexión académica."
