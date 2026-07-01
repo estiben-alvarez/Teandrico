@@ -10,7 +10,7 @@ header:
       url: /club-de-lectura/
     - label: "Sobre el Proyecto"
       url: /sobre-el-proyecto/
-excerpt: "Un espacio dedicado a la divulgación teológica a partir de la reflexión académica."
+excerpt: "Un espacio dedicado a la divulgación y el diálogo sobre teología, religión, espiritualidad y fe, desde una aproximación académica y científica."
 title: "Haciendo teología en el continente digital"
 ---
 
