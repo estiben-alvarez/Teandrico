@@ -1,5 +1,5 @@
 ---
-title: "Gobierno lanza ‘Bono de Lectura’ para jóvenes colombianos: una apuesta por la cultura y el acceso al libro"
+title: "Gobierno lanza ‘Bono de Lectura’ para jóvenes: una apuesta por la cultura y el acceso al libro"
 date: 2026-07-15
 date_string: "15 de julio de 2026"
 categories: [Noticias]
