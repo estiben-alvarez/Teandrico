@@ -47,7 +47,7 @@ El evento se realizará en modalidad híbrida, permitiendo la participación tan
 
 Las personas interesadas en asistir pueden realizar su inscripción a través de [este enlace.](https://forms.office.com/pages/responsepage.aspx?id=W2DdM9Sw2UK76DdvIo3MsG5sQomLufhBuN_DOLTUCKJUQlBHRllWRDNJRFdJSzFKOE5BOVFFT0ZGOC4u&origin=lprLink&route=shorturl)
 
-Para consultar el programa completo, los horarios, las ponencias y todos los detalles del congreso, se puede visitar la página web oficial de la [Fundación Universitaria Cervantes San Agustín](https://unicervantes.edu.co/eventos-unicervantes/congresos/ii-congreso-latinoamericano-y-del-caribe-de-estudios-patristicospuentes-de-dialogo-para-una-unidad-que-renace/)
+Para consultar el programa completo, los horarios, las ponencias y todos los detalles del congreso, se puede visitar la página web oficial de la [Fundación Universitaria Cervantes San Agustín.](https://unicervantes.edu.co/eventos-unicervantes/congresos/ii-congreso-latinoamericano-y-del-caribe-de-estudios-patristicospuentes-de-dialogo-para-una-unidad-que-renace/)
 
 Para mayor información, los interesados pueden escribir al correo electrónico congreso.patristica@unicervantes.edu.co o comunicarse al número 311 556 4663.
 
