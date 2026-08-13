@@ -12,8 +12,8 @@ layout: single
 author_profile: false
 share: true
 header:
-  teaser: /imagenes/job.jpg
-  og_image: /imagenes/job.jpg
+  teaser: /imagenes/chagall-Job.jpg
+  og_image: /imagenes/chagall-Job.jpg
 
 image: /imagenes/job.jpg
 ---
