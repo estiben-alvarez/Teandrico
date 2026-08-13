@@ -1,7 +1,7 @@
 ---
 title: "El valor formativo del sufrimiento en el libro de Job"
-date: 2026-10-21
-date_string: "21 de octubre de 2026"
+date: 2026-08-13
+date_string: "13 de agosto de 2026"
 categories: [Teología Bíblica]
 tags: [Job, pedagogía, sufrimiento, antropología teológica, Biblia, sabiduría]
 author: "Daniel Estiben Valderrama Álvarez"
