@@ -18,8 +18,7 @@ header:
 image: /imagenes/job.jpg
 ---
 ![Job](/imagenes/chagall-Job.jpg)
-
-*Pintura de Job - Marc Chagall
+*Pintura de Job - Marc Chagall*
 
 *Ponencia que será presentada en el Coloquio Internacional de Teología: "Aportes teológicos, bíblicos y pastorales para la época contemporánea", organizado por la Red Colombiana de Facultades e Instituciones de Teología y Áreas afines (TeoRed) y la Fundación Universitaria Católica del Norte, los días 21 y 22 de octubre de 2026. Este texto hace parte del proyecto de investigación "Biblia y pedagogía", adscrito a la Facultad de Teología de la Universidad Católica de Oriente.*
 
