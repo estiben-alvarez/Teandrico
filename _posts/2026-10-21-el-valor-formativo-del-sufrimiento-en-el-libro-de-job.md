@@ -7,7 +7,7 @@ tags: [Job, pedagogía, sufrimiento, antropología teológica, Biblia, sabidurí
 author: "Daniel Estiben Valderrama Álvarez"
 language: "Español"
 excerpt: "Una lectura del libro de Job que explora el valor pedagógico y formativo del sufrimiento, entendiendo la pedagogía como un proceso antropológico de humanización que conduce a Job desde la queja hasta la teofanía."
-pdf: /imagenes/el-valor-formativo-del-sufrimiento-en-el-libro-de-job.pdf
+pdf: /archivos/el-valor-formativo-del-sufrimiento-en-el-libro-de-job.pdf
 layout: single
 author_profile: false
 share: true
