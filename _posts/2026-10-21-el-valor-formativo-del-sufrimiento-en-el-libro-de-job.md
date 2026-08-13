@@ -19,10 +19,12 @@ image: /imagenes/job.jpg
 ---
 ![Job](/imagenes/chagall-Job.jpg)
 
-*Ponencia presentada en el Coloquio Internacional de Teología: "Aportes teológicos, bíblicos y pastorales para la época contemporánea", organizado por la Red Colombiana de Facultades e Instituciones de Teología y Áreas afines (TeoRed) y la Fundación Universitaria Católica del Norte, los días 21 y 22 de octubre de 2026. Este texto hace parte del proyecto de investigación "Biblia y pedagogía", adscrito a la Facultad de Teología de la Universidad Católica de Oriente.*
+*Pintura de Job - Marc Chagall
+
+*Ponencia que será presentada en el Coloquio Internacional de Teología: "Aportes teológicos, bíblicos y pastorales para la época contemporánea", organizado por la Red Colombiana de Facultades e Instituciones de Teología y Áreas afines (TeoRed) y la Fundación Universitaria Católica del Norte, los días 21 y 22 de octubre de 2026. Este texto hace parte del proyecto de investigación "Biblia y pedagogía", adscrito a la Facultad de Teología de la Universidad Católica de Oriente.*
 
 <p style="font-size:0.85rem;color:#6b6b6b;border-left:3px solid #f5c842;padding-left:0.8rem;margin-bottom:0.5rem;">Por <strong>Daniel Estiben Valderrama Álvarez</strong></p>
-<p style="font-size:0.82rem;color:#6b6b6b;margin-bottom:0.5rem;">Estudiante del programa de Teología en la Facultad de Teología de la Universidad Católica de Oriente. Mesa temática 2: Padres de la Iglesia, liturgia y espiritualidad.</p>
+<p style="font-size:0.82rem;color:#6b6b6b;margin-bottom:0.5rem;">Estudiante del programa de Teología en la Facultad de Teología de la Universidad Católica de Oriente. Correo electrónico: daniel.valderrama5459@uco.net.co.</p>
 <p style="font-size:0.82rem;color:#6b6b6b;margin-bottom:2rem;"><strong>Idioma:</strong> Español</p>
 
 ## Resumen
@@ -32,12 +34,6 @@ El libro de Job es frecuentemente abordado como un tratado sobre la teodicea o e
 **Palabras clave:** Job, pedagogía, Biblia, sufrimiento, límite, antropología teológica.
 
 ## Documento completo
-
-<div style="margin: 1.5rem 0; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; text-align: center;">
-  <a href="/archivos/el-valor-formativo-del-sufrimiento-en-el-libro-de-Job-Daniel-Valderrama.pdf" target="_blank" rel="noopener" style="display:inline-block; padding: 0.7rem 1.4rem; background-color:#2c2c2c; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">
-    📄 Descargar PDF
-  </a>
-</div>
 
 <iframe src="/archivos/el-valor-formativo-del-sufrimiento-en-el-libro-de-Job-Daniel-Valderrama.pdf" width="100%" height="800px" style="border:1px solid #e0e0e0; border-radius:8px;">
   Tu navegador no soporta la visualización de PDF embebidos. Puedes <a href="/pdfs/el-valor-formativo-del-sufrimiento-en-el-libro-de-job.pdf">descargar el archivo aquí</a>.
